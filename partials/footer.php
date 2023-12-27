@@ -1,44 +1,4 @@
-<footer class="py-60 ">
-    <img class="coin" src="assets/img/footer-coin.png" alt="">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-lg-3 mb-4 mb-lg-0 info">
-                <p>CONTACT US</p>
-                <p><a href="#">info@sweepstakes.com</a></p>
-                <p><a href="#" class="text-white">+1 98XXXXXXXX</a></p>
-            </div>
-            <div class="col-lg-6 mb-4 mb-lg-0 newsletter">
-                <form action="">
-                    <div class="d-flex">
-                        <div class="input-group d-block flex-column">
-                            <input type="text" placeholder="Enter your email address" class="form-control w-100 mb-3">
-                            <div class="text-white">Get updated with our latest release and updates</div>
-                        </div>
-                        <div class="submit-btn">
-                            <input type="submit" value="Subscribe">
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="terms-conditions col-lg-3 mb-4 mb-lg-0">
-                <ul>
-                    <li>
-                        <a href="#">Terms & Conditions</a>
-                    </li>
-                    <li>
-                        <a href="#">Privacy Policy</a>
-                    </li>
-                    <li>
-                        <a href="#">Games</a>
-                    </li>
-                </ul>
-            </div>
-            <div class="col-12 logo mt-5 text-center d-flex justify-content-center">
-                <img src="assets/img/favicon.png" alt="">
-                <span class="font-primary text-white font-20 mt-2 ms-1 d-block">Sweepstakes</span>
-            </div>
-        </div>
-    </div>
+<footer class="">
 </footer>
 <a href="javascript:void(0)" id="return-to-top">
     <svg viewBox="0 0 24 24" width="24" height="24" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
