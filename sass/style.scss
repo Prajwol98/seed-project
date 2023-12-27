@@ -1,0 +1,24 @@
+$theme-colors: (
+  "primary": #EE5536,
+  "secondary": #1B1E25,
+  "dark": #000000,
+  "light": #f6f8f9,
+);
+
+//colors
+$primary: #EE5536;
+$secondary: #1B1E25;
+$primary-dark: #d02604;
+$black: #000;
+$white: #fff;
+$grey: rgba(18, 17, 39, 0.56);
+
+//fonts
+$font-primary: 'Bungee', cursive;
+$font-secondary: 'IBM Plex Sans', sans-serif;
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "base/mixins";
+@import "base/custom-base";
+@import "base/base";
+@import "pages/index";

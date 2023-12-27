@@ -1,0 +1,558 @@
+/*
+              Table of Content
+              1: Global CSS
+              2: Headings
+              3: Fonts Family
+              4: Font Colors
+              5: Font Size
+              6: Font-Weight
+              7: Margins
+              8: Paddings
+              9: Return to Top
+              10: Page Not Found
+              11: Border-radius
+              12: Positions
+              13: Flex
+              14:Box Shadow
+              15: ButtonNav Animation
+             
+*/
+
+// 1: Global CSS Start
+html {
+  @media (min-width: 300px) and (max-width: 1399.98px) {
+    font-size: smaller;
+  }
+}
+
+a {
+  @include transition;
+}
+
+p {
+  color: $secondary;
+}
+
+body {
+  font-family: $font-secondary;
+  overflow-x: hidden;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  text-underline-offset: 2px;
+}
+
+ul,
+ol {
+  padding-left: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  @media (min-width: 1300px) and (max-width: 1439.98px) {
+    max-width: 1200px;
+  }
+
+  @media (min-width: 1920px) {
+    max-width: 1640px;
+  }
+}
+
+// 1: Global CSS End
+
+//2: Headings Start
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  @include transition();
+  font-family: $font-primary;
+  font-weight: 700;
+  color: #363400;
+}
+
+//2: Headings End
+
+// 3: Fonts Family Start
+
+
+
+// 3: Fonts Family End
+
+// 4: Font Colors Start
+.text-danger {
+  color: red;
+}
+
+.text-grey {
+  color: $grey !important;
+}
+
+// 4: Font Colors End
+
+// 5: Font Size Start
+.font-8 {
+  font-size: 0.5rem !important;
+}
+
+.font-10 {
+  font-size: 0.625rem !important;
+}
+
+.font-12 {
+  font-size: 0.75rem !important;
+}
+
+.font-14 {
+  font-size: 0.875rem !important;
+}
+
+.font-16 {
+  font-size: 1rem !important;
+}
+
+.font-18 {
+  font-size: 1.125rem !important;
+}
+
+.font-20 {
+  font-size: 1.25rem !important;
+}
+
+.font-24 {
+  font-size: 1.5rem !important;
+}
+
+.font-32 {
+  font-size: 2rem !important;
+}
+
+.font-36 {
+  font-size: 2.25rem !important;
+
+  @media (max-width:575.98px) {
+    font-size: 1.5rem !important;
+  }
+}
+
+.font-40 {
+  font-size: 2.5rem !important;
+}
+
+.font-48 {
+  font-size: 3rem !important;
+}
+
+.font-64 {
+  font-size: 4rem !important;
+}
+
+.ls-1 {
+  letter-spacing: 1px;
+}
+
+// 5: Font Size End
+
+// 6: Font Weights Start
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+// 6: Font Weights Ens
+
+// 7: Margins Start
+.mr-32 {
+  margin-right: 2rem;
+}
+
+.mt-40 {
+  margin-top: 2.5rem;
+
+  @media (max-width: 767.98px) {
+    margin-top: 2rem;
+  }
+}
+
+.mb-40 {
+  margin-bottom: 2.5rem;
+
+  @media (max-width: 767.98px) {
+    margin-bottom: 2rem;
+  }
+}
+
+.my-40 {
+  @extend .mt-40;
+  @extend .mb-40;
+}
+
+.mt-60 {
+  margin-top: 3.75rem;
+
+  @media (max-width: 767.98px) {
+    margin-top: 2rem;
+  }
+}
+
+.mb-60 {
+  margin-bottom: 3.75rem;
+
+  @media (max-width: 767.98px) {
+    margin-bottom: 2rem;
+  }
+}
+
+.my-60 {
+  @extend .mt-60;
+  @extend .mb-60;
+}
+
+.mt-80 {
+  margin-top: 5rem;
+
+  @media (max-width: 767.98px) {
+    margin-top: 2rem;
+  }
+}
+
+.mb-80 {
+  margin-bottom: 5rem;
+
+  @media (max-width: 767.98px) {
+    margin-bottom: 2rem;
+  }
+}
+
+.my-80 {
+  @extend .mt-80;
+  @extend .mb-80;
+}
+
+.mt-100 {
+  margin-top: 6.25rem;
+
+  @media (max-width: 767.98px) {
+    margin-top: 2rem;
+  }
+}
+
+.mb-100 {
+  margin-bottom: 6.25rem;
+
+  @media (max-width: 767.98px) {
+    margin-bottom: 2rem;
+  }
+}
+
+.my-100 {
+  @extend .mt-100;
+  @extend .mb-100;
+}
+
+.mt-120 {
+  margin-top: 7.5rem;
+
+  @media (max-width: 767.98px) {
+    margin-top: 2rem;
+  }
+}
+
+.mb-120 {
+  margin-bottom: 7.5rem;
+
+  @media (max-width: 767.98px) {
+    margin-bottom: 2rem;
+  }
+}
+
+.my-120 {
+  @extend .mt-120;
+  @extend .mb-120;
+}
+
+// 7: Margins Ends
+
+// 8: Paddings Starts
+.pt-40 {
+  padding-top: 2.5rem;
+
+  @media (max-width: 767.98px) {
+    padding-top: 2rem;
+  }
+}
+
+.pb-40 {
+  padding-bottom: 2.5rem;
+
+  @media (max-width: 767.98px) {
+    padding-bottom: 2rem;
+  }
+}
+
+.py-40 {
+  @extend .pt-40;
+  @extend .pb-40;
+}
+
+.py-60 {
+  padding-top: 3.75rem;
+  padding-bottom: 3.75rem;
+
+  @media (max-width: 767.98px) {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.pt-60 {
+  padding-top: 3.75rem;
+
+  @media (max-width: 767.98px) {
+    padding-top: 2rem;
+  }
+}
+
+.pb-60 {
+  padding-bottom: 3.75rem;
+
+  @media (max-width: 767.98px) {
+    padding-bottom: 2rem;
+  }
+}
+
+.py-60 {
+  @extend .pt-60;
+  @extend .pb-60;
+}
+
+.pt-80 {
+  padding-top: 5rem;
+
+  @media (max-width: 767.98px) {
+    padding-top: 2rem;
+  }
+}
+
+.pb-80 {
+  padding-bottom: 5rem;
+
+  @media (max-width: 767.98px) {
+    padding-bottom: 2rem;
+  }
+}
+
+.py-80 {
+  @extend .pt-80;
+  @extend .pb-80;
+}
+
+.pt-100 {
+  padding-top: 6.25rem;
+
+  @media (max-width: 767.98px) {
+    padding-top: 2rem;
+  }
+}
+
+.pb-100 {
+  padding-bottom: 6.25rem;
+
+  @media (max-width: 767.98px) {
+    padding-bottom: 2rem;
+  }
+}
+
+.py-100 {
+  @extend .pt-100;
+  @extend .pb-100;
+}
+
+.pt-120 {
+  padding-top: 7.5rem;
+
+  @media (max-width: 767.98px) {
+    padding-top: 2rem;
+  }
+}
+
+.pb-120 {
+  padding-bottom: 7.5rem;
+
+  @media (max-width: 767.98px) {
+    padding-bottom: 2rem;
+  }
+}
+
+.py-120 {
+  @extend .pt-120;
+  @extend .pb-120;
+}
+
+// 8: Paddings Ends
+
+// 9: Return to Top Start
+#return-to-top {
+  position: fixed;
+  z-index: 99;
+  bottom: 20px;
+  right: 2%;
+  background: $primary;
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  line-height: 50px;
+  text-align: center;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#return-to-top svg {
+  margin: 0;
+  stroke: #fff;
+  position: relative;
+  left: 0;
+  top: 0;
+  font-size: 1.875rem;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+
+  &:hover {
+    margin-top: -6px;
+  }
+}
+
+// 9: Return to Top Start
+
+// 10: Page Not Found Start
+.page-not-found {
+  padding: 80px 0;
+
+  .text-content {
+    &>span {
+      font-size: 1.25rem;
+      color: #000000;
+      letter-spacing: 0.28em;
+      display: block;
+      margin-bottom: 12px;
+    }
+
+    h2 {
+      font-size: 3.125rem !important;
+      font-weight: 900;
+      margin-bottom: 20px;
+
+      span {
+        color: $primary;
+      }
+    }
+
+    p {
+      font-size: 1.125rem;
+      font-weight: 400;
+      margin-bottom: 40px;
+    }
+
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: #333333;
+
+      &:hover {
+        color: $primary !important;
+      }
+
+      svg,
+      i {
+        margin-right: 6px;
+        font-weight: 200;
+      }
+
+      span {
+        margin-left: 4px;
+        font-weight: bold;
+        color: $primary;
+      }
+
+      &:hover {
+        color: $secondary;
+      }
+    }
+  }
+}
+
+// 10: Page Not Found End
+
+// 11: Border Radius
+
+.border-radius-4 {
+  border-radius: 0.25rem;
+}
+
+.border-radius-8 {
+  border-radius: 0.5rem;
+}
+
+.border-radius-12 {
+  border-radius: 0.25rem;
+}
+
+.border-radius-16 {
+  border-radius: 1rem;
+}
+
+// 12: Positions
+
+.position-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// 13: Flex
+@for $i from 1 through 5 {
+  .#{flex}#{$i} {
+    flex: $i;
+  }
+}
+
+//14: Box Shadow
+.box-shadow-1 {
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}

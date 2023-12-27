@@ -1,0 +1,110 @@
+.font-primary {
+    font-family: $font-primary !important;
+}
+
+.font-secondary {
+    font-family: $font-secondary !important;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+
+    label {
+        font-family: $font-primary;
+        margin-bottom: .75rem;
+        font-size: 1rem;
+
+        span {
+            color: $primary;
+        }
+    }
+
+    .input-group {
+        .form-control {
+            height: 3.5rem;
+            border: 2px solid $primary;
+            border-radius: 0;
+
+
+        }
+
+        textarea {
+            min-height: 200px;
+        }
+
+        .select2-container {
+            width: 100% !important;
+            min-width: unset !important;
+
+            .select2-selection--single {
+                height: 3.5rem;
+                border: 2px solid $primary;
+                border-radius: 0;
+                display: flex;
+                align-items: center;
+
+                .select2-selection__arrow {
+                    height: 3.5rem;
+                }
+            }
+
+
+        }
+    }
+}
+
+.pre-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    z-index: 111;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        height: 200px;
+    }
+}
+
+.general-text-content {
+    p {
+        font-size: 1.25rem;
+    }
+
+    ul,
+    ol {
+        padding-left: 1rem;
+
+        li {
+            margin-bottom: 8px;
+            font-size: 1.25rem;
+        }
+    }
+}
+
+body {
+    cursor: url('../img/cursor.png'), auto !important;
+}
+
+.wp-chatbot-header {
+    background: $primary !important;
+}
+
+// ul.wp-chatbot-messages-container>li.wp-chatbot-msg .wp-chatbot-paragraph {
+//     background-color: $primary !important;
+// }
+
+// .wp-chatbot-tab-nav ul li a[data-option="chat"]:after {
+//     border-color: $primary !important;
+// }
+.select2-container--open {
+    z-index: 111111;
+}
+
+.select2-results__option--highlighted[aria-selected] {
+    background-color: $primary !important;
+}
