@@ -29,6 +29,6 @@ $page = end($link_array);
 
 
 <body>
-    <div class="pre-loader">
+    <!-- <div class="pre-loader">
         <img src="assets/img/loader3.gif" alt="">
-    </div>
+    </div> -->
