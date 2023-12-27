@@ -1,25 +1,28 @@
 /* ALL COLORS START */
 
 $theme-colors: (
-  "primary": #EE5536,
-  "secondary": #1B1E25,
+  "primary": #EC2024,
+  "secondary": #F58B1F,
   "dark": #000000,
   "light": #f6f8f9,
 );
 
-$primary: #EE5536;
-$secondary: #1B1E25;
+$primary: #EC2024;
+$secondary: #F58B1F;
 $primary-dark: #d02604;
 $black: #000;
 $white: #fff;
 $grey: rgba(18, 17, 39, 0.56);
+$title-color: #363636;
+$paragraph-color: #545454;
 
 /* ALL COLORS END */
 
 /* ALL FONTS START */
+// font-family: 'Onest', sans-serif;
 
-$font-primary: 'Bungee', cursive;
-$font-secondary: 'IBM Plex Sans', sans-serif;
+$font-primary: 'Caprasimo', sans-serif;
+$font-secondary: 'Onest', sans-serif;
 
 /* ALL COLORS END */
 
@@ -31,7 +34,10 @@ $font-secondary: 'IBM Plex Sans', sans-serif;
 @import "base/header";
 @import "base/footer";
 @import "base/base";
+@import "components/cards";
 @import "pages/index";
 @import "pages/about";
 @import "pages/contact";
 @import "pages/detail";
+@import "pages/contact";
+@import "components/buttons";

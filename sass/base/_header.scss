@@ -1,0 +1,30 @@
+header.main-header {
+    padding: .75rem 0;
+    background-color: #000;
+
+    .nav-items {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        ul {
+            display: flex;
+            list-style: none;
+            margin-bottom: 0;
+
+            li {
+                a {
+                    font-size: 1.125rem;
+                    font-family: $font-primary;
+                    display: block;
+                    padding: 0 1rem;
+                    color: white;
+
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -30,7 +30,7 @@ a {
 }
 
 p {
-  color: $secondary;
+  color: $paragraph-color;
 }
 
 body {
@@ -561,4 +561,10 @@ h6 {
 //14: Box Shadow
 .box-shadow-1 {
   box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+}
+
+.section-heading {
+  h2 {
+    margin-bottom: 1rem;
+  }
 }
