@@ -1,3 +1,5 @@
+/* ALL COLORS START */
+
 $theme-colors: (
   "primary": #EE5536,
   "secondary": #1B1E25,
@@ -5,7 +7,6 @@ $theme-colors: (
   "light": #f6f8f9,
 );
 
-//colors
 $primary: #EE5536;
 $secondary: #1B1E25;
 $primary-dark: #d02604;
@@ -13,12 +14,24 @@ $black: #000;
 $white: #fff;
 $grey: rgba(18, 17, 39, 0.56);
 
-//fonts
+/* ALL COLORS END */
+
+/* ALL FONTS START */
+
 $font-primary: 'Bungee', cursive;
 $font-secondary: 'IBM Plex Sans', sans-serif;
+
+/* ALL COLORS END */
+
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "base/mixins";
 @import "base/custom-base";
+@import "base/header";
+@import "base/footer";
 @import "base/base";
 @import "pages/index";
+@import "pages/about";
+@import "pages/contact";
+@import "pages/detail";

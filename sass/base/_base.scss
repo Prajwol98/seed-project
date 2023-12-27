@@ -82,7 +82,13 @@ h6 {
 
 // 3: Fonts Family Start
 
+.font-primary {
+  font-family: $font-primary;
+}
 
+.font-secondary {
+  font-family: $font-secondary;
+}
 
 // 3: Fonts Family End
 

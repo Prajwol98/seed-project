@@ -1,11 +1,3 @@
-.font-primary {
-    font-family: $font-primary !important;
-}
-
-.font-secondary {
-    font-family: $font-secondary !important;
-}
-
 .form-group {
     margin-bottom: 1.5rem;
 
@@ -86,21 +78,10 @@
     }
 }
 
-body {
-    cursor: url('../img/cursor.png'), auto !important;
-}
-
 .wp-chatbot-header {
     background: $primary !important;
 }
 
-// ul.wp-chatbot-messages-container>li.wp-chatbot-msg .wp-chatbot-paragraph {
-//     background-color: $primary !important;
-// }
-
-// .wp-chatbot-tab-nav ul li a[data-option="chat"]:after {
-//     border-color: $primary !important;
-// }
 .select2-container--open {
     z-index: 111111;
 }
