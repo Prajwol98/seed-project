@@ -110,7 +110,6 @@
     height: 2px;
     transform: translateY(-50%);
     z-index: -1;
-
   }
 }
 // playButton
@@ -139,5 +138,107 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
+  }
+}
+
+// form-wrapper
+.form-wrapper {
+  padding: 2rem;
+  background: $white;
+  box-shadow: 2px 2px 12px 2px rgba(0, 0, 0, 0.06);
+  position: relative;
+  form {
+    height: 100%;
+    .row {
+      height: 100%;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: #363636;
+      font-family: $font-primary;
+      font-size: 1.25rem;
+      font-weight: 400;
+      margin-bottom: 2.5rem;
+    }
+    label {
+      color: #363636;
+      font-family: $font-secondary;
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+      span {
+        color: $primary;
+        font-family: $font-secondary;
+        font-size: 0.625rem;
+        font-weight: 500;
+      }
+    }
+    .select-wrapper {
+      position: relative;
+      cursor: pointer;
+      &::before {
+        content: "";
+        background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox='0 0 20 20' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M5 7L10 12L15 7' stroke='black' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 1.25rem;
+        width: 1.25rem;
+        position: absolute;
+        right: 12px;
+        top: 12px;
+      }
+    }
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      text-indent: 1px;
+      text-overflow: "";
+      cursor: pointer;
+      width: 100%;
+    }
+    input,
+    select {
+      border: 1px solid #fbd2d3;
+      background: #f0f0f0;
+      border-radius: 0;
+      padding: 0.625rem 0.75rem;
+      outline: none;
+      &::placeholder {
+        color: #545454;
+        font-family: $font-secondary;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 140%;
+      }
+      &:focus {
+        border: 1px solid $secondary;
+        outline: none;
+      }
+    }
+    textarea {
+      border: 1px solid #fbd2d3;
+      background: #f0f0f0;
+      border-radius: 0;
+      padding: 0.625rem 0.75rem;
+      outline: none;
+      resize: none;
+      height: 4.9375rem;
+      margin-bottom: 1.5rem;
+      &::placeholder {
+        color: #545454;
+        font-family: $font-secondary;
+        font-size: 0.875rem;
+        font-weight: 400;
+        line-height: 140%;
+      }
+      &:focus {
+        border: 1px solid $secondary;
+        outline: none;
+      }
+    }
   }
 }
