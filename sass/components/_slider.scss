@@ -1,0 +1,33 @@
+.welcome-slider {
+    .text-content {
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 24px;
+
+            span {
+                color: $primary;
+            }
+        }
+
+        .download-text {
+            display: inline-block;
+            font-family: 1.125rem;
+            font-family: $font-primary;
+            color: $primary;
+            padding-left: 14.5rem;
+            position: relative;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 0;
+                transform: translateY(-50%);
+                height: 1px;
+                width: 60%;
+                background-color: red;
+                z-index: -1;
+            }
+        }
+    }
+}

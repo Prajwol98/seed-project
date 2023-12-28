@@ -75,7 +75,7 @@ h6 {
   @include transition();
   font-family: $font-primary;
   font-weight: 700;
-  color: #363400;
+  color: $title-color;
 }
 
 //2: Headings End
@@ -564,7 +564,21 @@ h6 {
 }
 
 .section-heading {
-  h2 {
+
+  h2,
+  h3,
+  h4,
+  h1 {
     margin-bottom: 1rem;
+
+    span {
+      color: $secondary;
+    }
   }
+}
+
+.position-centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

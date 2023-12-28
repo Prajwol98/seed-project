@@ -2,16 +2,6 @@
     setTimeout(() => {
         $('.pre-loader').hide();
     }, 1000);
-    $('.testimonial-carousel').owlCarousel({
-        items: 1,
-        dots: true
-    })
-    //initialize tooltip
-    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
-        return new bootstrap.Tooltip(tooltipTriggerEl)
-    })
-
     // returntotop
     $(window).scroll(function () {
         if ($(this).scrollTop() >= 200) { $('#return-to-top').show(200); }
@@ -64,27 +54,11 @@
             scrollTop: $(".expandable-text").offset().top - 200
         }, 0000);
     })
-    //pagination
-    var $children = $("#pagination").children(".game-card-wrapper");
-    display = 11;
-    redraw();
-    function redraw() {
-        $.each($children, function (k, v) {
-            if (k > display) {
-                $(this).addClass("hidden");
-            }
-            else {
-                $(this).removeClass("hidden");
-            }
-        });
-    }
-    $('#pagination #view-more').click(function () {
-        display += display;
-        if (display > $children.length) {
-            $('#pagination #view-more').hide()
-        }
-        redraw();
+
+    $('.pop-up').magnificPopup({
+        type: 'iframe'
     });
+
 
 })(jQuery);
 
