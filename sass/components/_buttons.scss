@@ -118,5 +118,20 @@
       transform: unset;
       z-index: -1;
     }
+    &.no-fire {
+      padding: 0.625rem 0;
+      background: rgb(236, 32, 36);
+      background: linear-gradient(
+        180deg,
+        rgba(236, 32, 36, 1) 0%,
+        rgba(245, 139, 31, 1) 100%
+      );
+      &::before {
+        display: none;
+      }
+      &:hover {
+        background: $secondary;
+      }
+    }
   }
 }

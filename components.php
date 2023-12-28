@@ -245,6 +245,7 @@
                 <a href="#" class="btn btn-v1 dark-bg me-4">Download<span></span></a>
                 <a href="#" class="btn btn-v1 ">Download<span></span></a>
                 <a href="#" class="btn btn-v2 ">Play Now</a>
+                <a href="#" class="btn btn-v2 no-fire">Play Now</a>
             </div>
         </div>
     </div>
