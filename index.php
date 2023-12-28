@@ -34,6 +34,11 @@
 <section class="game-listing-wrapper py-60">
     <div class="container">
         <div class="row">
+            <div class="col-12">
+                <div class="lined-title mb-4">
+                    <h2><span>Join in Our Games NOW!</span></h2>
+                </div>
+            </div>
             <div class="col-xl-3 col-lg-4 col-sm-6 game-card-wrapper type-one mb-xl-0 mb-4">
                 <a href="#">
                     <div class="img-wrapper">

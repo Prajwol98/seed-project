@@ -1,0 +1,9 @@
+.banner {
+    &.primary-bg {
+        .content-wrapper {
+            background-color: black;
+            padding: 2.5rem 3.75rem;
+            border-radius: .5rem;
+        }
+    }
+}

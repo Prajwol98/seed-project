@@ -89,3 +89,27 @@
 .background-light {
   background: #f2f2f2;
 }
+
+.lined-title {
+  text-align: center;
+  position: relative;
+
+  span {
+    background-color: white !important;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    border-top: 2px dashed $primary;
+    height: 2px;
+    transform: translateY(-50%);
+    z-index: -1;
+
+  }
+}

@@ -576,6 +576,14 @@ h6 {
       color: $secondary;
     }
   }
+
+  &.white-text {
+
+    h2,
+    p {
+      color: $white !important;
+    }
+  }
 }
 
 .position-centered {
