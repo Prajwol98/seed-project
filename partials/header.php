@@ -30,6 +30,7 @@ $page = end($link_array);
 
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- Owl Carousel -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
@@ -53,10 +54,16 @@ $page = end($link_array);
                 </div>
                 <div class="col-lg-7 col-md-8 col-6 nav-items">
                     <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="listings.php">Games</a></li>
-                        <li><a href="about.php">About</a></li>
-                        <li><a href="contanct.php">Contact</a></li>
+                        <<<<<<< HEAD <li><a href="index.php">Home</a></li>
+                            <li><a href="listings.php">Games</a></li>
+                            <li><a href="about.php">About</a></li>
+                            <li><a href="contanct.php">Contact</a></li>
+                            =======
+                            <li><a href="#">Home</a></li>
+                            <li><a href="detail.php">Games</a></li>
+                            <li><a href="about.php">About</a></li>
+                            <li><a href="contact.php">Contact</a></li>
+                            >>>>>>> d0a0fc272de499f7e9c1de880bd412cd56d3a666
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-2 col-12 btn-wrapper">
