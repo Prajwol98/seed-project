@@ -7,7 +7,9 @@
                 <div class="col-lg-5 text-content py-120">
                     <div class="content">
                         <h1>A place where <span>Millionaires</span> are born</h1>
-                        <p>Step into the realm where millionaires are born with our curated selection of casino games, where high stakes and unparalleled luxury converge for an extraordinary gaming experience.</p>
+                        <p>Step into the realm where millionaires are born with our curated selection of casino games,
+                            where high stakes and unparalleled luxury converge for an extraordinary gaming experience.
+                        </p>
                         <div class="download-text">
                             Download Now
                         </div>
