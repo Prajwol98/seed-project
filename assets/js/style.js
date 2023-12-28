@@ -114,4 +114,7 @@
       },
     },
   });
+  $('.pop-up').magnificPopup({
+    type: 'iframe'
+  });
 })(jQuery);
