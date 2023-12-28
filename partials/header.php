@@ -54,16 +54,12 @@ $page = end($link_array);
                 </div>
                 <div class="col-lg-7 col-md-8 col-6 nav-items">
                     <ul>
-                        <<<<<<< HEAD <li><a href="index.php">Home</a></li>
-                            <li><a href="listings.php">Games</a></li>
-                            <li><a href="about.php">About</a></li>
-                            <li><a href="contanct.php">Contact</a></li>
-                            =======
-                            <li><a href="#">Home</a></li>
-                            <li><a href="detail.php">Games</a></li>
-                            <li><a href="about.php">About</a></li>
-                            <li><a href="contact.php">Contact</a></li>
-                            >>>>>>> d0a0fc272de499f7e9c1de880bd412cd56d3a666
+
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="detail.php">Games</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="contact.php">Contact</a></li>
+
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-2 col-12 btn-wrapper">
