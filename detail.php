@@ -86,8 +86,10 @@
                     <h3>How to Play?</h3>
                     <p>Welcome to the world of "Panda Master," where excitement and strategy collide in an enchanting
                         bamboo-filled landscape. Mastering this game is as easy as it is thrilling.</p>
-                    <div class="play-video-section">
-                        <img src="assets/img/game-detail-image2.svg" alt="how_to_play_image_thumbnail">
+                    <div class="col-lg-6 img-wrapper position-centered">
+                        <a id="playButton" href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="pop-up">
+                            <img src="assets/img/game-detail-image2.svg" alt="how_to_play_image_thumbnail">
+                        </a>
                     </div>
                     <div class="download-section">
                         <h4>Download this game on:</h4>
@@ -106,25 +108,29 @@
                             <div class="col-lg-6">
                                 <div class="mb-3">
                                     <label for="name" class="form-label">First Name</label>
-                                    <input type="text" class="form-control" placeholder="Enter your First Name" id="name">
+                                    <input type="text" class="form-control" placeholder="Enter your First Name"
+                                        id="name">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="mb-3">
                                     <label for="name" class="form-label">Second Name</label>
-                                    <input type="text" class="form-control" placeholder="Enter your Second Name" id="name">
+                                    <input type="text" class="form-control" placeholder="Enter your Second Name"
+                                        id="name">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="mb-3">
                                     <label for="name" class="form-label">Email Address</label>
-                                    <input type="email" class="form-control" placeholder="Enter your Email Address" id="name">
+                                    <input type="email" class="form-control" placeholder="Enter your Email Address"
+                                        id="name">
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="mb-3">
                                     <label for="name" class="form-label">Phone Number</label>
-                                    <input type="text" class="form-control" placeholder="Enter your Phone Number" id="name">
+                                    <input type="text" class="form-control" placeholder="Enter your Phone Number"
+                                        id="name">
                                 </div>
                             </div>
                         </div>
