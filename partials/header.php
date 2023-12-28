@@ -30,7 +30,7 @@ $page = end($link_array);
 
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    
+
     <!-- Owl Carousel -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
@@ -46,20 +46,20 @@ $page = end($link_array);
     <header class="main-header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 logo-wrapper">
-                    <a href="#">
+                <div class="col-lg-3 col-md-2 col-6 logo-wrapper">
+                    <a href="index.php">
                         <img src="assets/img/logo.png" alt="">
                     </a>
                 </div>
-                <div class="col-md-7 nav-items">
+                <div class="col-lg-7 col-md-8 col-6 nav-items">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="detail.php">Games</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="listings.php">Games</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="contanct.php">Contact</a></li>
                     </ul>
                 </div>
-                <div class="col-md-2 btn-wrapper">
+                <div class="col-lg-2 col-md-2 col-12 btn-wrapper">
                     <a href="#" class="btn btn-v1 dark-bg">Download<span></span></a>
                 </div>
             </div>

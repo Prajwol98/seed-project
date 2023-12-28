@@ -98,6 +98,8 @@
     background-color: white !important;
     padding-left: 1rem;
     padding-right: 1rem;
+    z-index: 11;
+    position: relative;
   }
 
   &::after {
@@ -109,7 +111,16 @@
     border-top: 2px dashed $primary;
     height: 2px;
     transform: translateY(-50%);
-    z-index: -1;
 
   }
+
+  &.bg-light {
+    background-color: #f2f2f2 !important;
+
+    span {
+      background-color: #f2f2f2 !important;
+    }
+  }
+
+
 }

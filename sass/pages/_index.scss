@@ -1,0 +1,37 @@
+.game-listing-wrapper {
+    .icon {
+        position: absolute;
+
+        &.one {
+            top: 10%;
+            left: 0;
+        }
+
+        &.two {
+            bottom: 10%;
+        }
+
+        &.three {
+            right: 0;
+            top: 10%;
+        }
+
+        &.four {
+            right: 0;
+            bottom: 0;
+        }
+
+        &.five {
+            display: none;
+        }
+
+        &.six {
+            left: 20%;
+            bottom: -2%;
+        }
+
+        @media (max-width:767.98px) {
+            opacity: .5;
+        }
+    }
+}

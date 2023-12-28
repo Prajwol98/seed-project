@@ -2,7 +2,8 @@
 
 <section class="welcome-slider">
     <div class="item">
-        <div class="container">
+        <img src="assets/img/welcome-banner-bg.png" class="bg-img" alt="">
+        <div class="container position-relative">
             <div class="row justify-content-between">
                 <div class="col-lg-5 text-content py-120">
                     <div class="content">
@@ -38,8 +39,9 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <div class="content-wrapper">
-                    <div class="row">
+                <div class="content-wrapper position-relative">
+                    <img src="assets/img/banner-bg.png" class="bg-img" alt="">
+                    <div class="row position-relative">
                         <div class="col-md-8 text-content section-heading white-text">
                             <h2>
                                 Ready to triumph and conquer?

@@ -1,6 +1,15 @@
 footer.main-footer {
     background-color: black;
 
+    .icon {
+        position: absolute;
+
+        &.one {
+            bottom: 0;
+            right: 0;
+        }
+    }
+
     .nav-items {
         ul {
             display: flex;

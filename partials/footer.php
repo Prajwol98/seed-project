@@ -1,7 +1,8 @@
 <footer class="main-footer pt-60">
+    <img src="assets/img/footer-icon.png" class="icon one" alt="">
     <div class="container">
         <div class="row">
-            <div class="col-md-2 nav-items">
+            <div class="col-md-2 mb-md-0 mb-4 nav-items">
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Games</a></li>
@@ -9,7 +10,7 @@
                     <li><a href="#">Contact</a></li>
                 </ul>
             </div>
-            <div class="col-md-8 logo-wrapper d-flex justify-content-center">
+            <div class="col-md-8 mb-md-0 mb-4  logo-wrapper d-md-flex justify-content-center">
                 <a href="#"><img src="assets/img/logo.png" alt=""></a>
             </div>
             <div class="col-md-2 social-links-wrapper">
@@ -88,10 +89,10 @@
             <div class="col-md-4 item">
                 <p>© Fire Kirin Website, 2023</p>
             </div>
-            <div class="col-md-4 item text-center">
+            <div class="col-md-4 item text-md-center">
                 <p>31215 Belka Street, Texas, USA</p>
             </div>
-            <div class="col-md-4 item text-end">
+            <div class="col-md-4 item text-md-end">
                 <p>Designed & Developed by: <a href="#">Makura Creations</a></p>
             </div>
         </div>

@@ -75,8 +75,8 @@ h5,
 h6 {
   @include transition();
   font-family: $font-primary;
-  font-weight: 700;
   color: $title-color;
+  font-weight: 400;
 }
 
 //2: Headings End
@@ -642,4 +642,20 @@ h6 {
       }
     }
   }
+}
+
+section {
+  position: relative;
+}
+
+.bg-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.nav-mt {
+  margin-top: 70px;
 }
