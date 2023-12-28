@@ -79,6 +79,9 @@
 </section>
 
 <section class="py-60 background-light how-to-play-section">
+    <img src="assets/img/how-to-play-clip1.svg" class="clip-images htps-i1" alt="clip_image">
+    <img src="assets/img/how-to-play-clip2.svg" class="clip-images htps-i2" alt="clip_image">
+    <img src="assets/img/how-to-play-clip3.svg" class="clip-images htps-i3" alt="clip_image">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -86,7 +89,7 @@
                     <h3>How to Play?</h3>
                     <p>Welcome to the world of "Panda Master," where excitement and strategy collide in an enchanting
                         bamboo-filled landscape. Mastering this game is as easy as it is thrilling.</p>
-                    <div class="col-lg-6 img-wrapper position-centered">
+                    <div class="img-wrapper">
                         <a id="playButton" href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="pop-up">
                             <img src="assets/img/game-detail-image2.svg" alt="how_to_play_image_thumbnail">
                         </a>
@@ -132,6 +135,23 @@
                                     <input type="text" class="form-control" placeholder="Enter your Phone Number"
                                         id="name">
                                 </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Facebook Link <span>(optional)</span></label>
+                                    <input type="text" class="form-control"
+                                        placeholder="Enter your link to facebook profile" id="name">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="mb-3 d-flex flex-column">
+                                    <label for="name" class="form-label">Leave us a message</label>
+                                    <textarea name="" placeholder="Please type your Message here..." id="" cols="30"
+                                        rows="10"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <a href="#" class="btn btn-v2 no-fire">Submit</a>
                             </div>
                         </div>
                     </form>
