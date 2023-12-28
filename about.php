@@ -72,7 +72,7 @@
                     <div class="increase-stats-wrapper">
                         <h5>Want to Increase the stats?</h5>
                         <p>Join us for pushing boundaries in the world of Fire Kirin and enjoy your Every Moment</p>
-                        <a href="#" class="btn btn-v1 dark-bg me-4">Download<span></span></a>
+                        <a href="#" class="btn btn-v1 text-primary">Explore Games<span></span></a>
                     </div>
                 </div>
             </div>
