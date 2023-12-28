@@ -54,7 +54,7 @@ $page = end($link_array);
                 <div class="col-md-7 nav-items">
                     <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Games</a></li>
+                        <li><a href="detail.php">Games</a></li>
                         <li><a href="#">About</a></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
