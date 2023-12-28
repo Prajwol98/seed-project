@@ -45,8 +45,8 @@
 <section class="py-60 game-screenshot-wrapper">
     <div class="container">
         <div class="row">
-            <div class="title-section text-center">
-                <h3>Game Screenshots</h3>
+            <div class="lined-title mb-4">
+                <h2><span>Game Screenshots</span></h2>
             </div>
             <div class="p-0 game-screenshot-carousel owl-carousel owl-theme">
                 <div class="item">
