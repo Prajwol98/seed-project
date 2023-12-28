@@ -77,4 +77,61 @@
         </div>
     </div>
 </section>
+
+<section class="py-60 background-light how-to-play-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="left-content-wrapper">
+                    <h3>How to Play?</h3>
+                    <p>Welcome to the world of "Panda Master," where excitement and strategy collide in an enchanting
+                        bamboo-filled landscape. Mastering this game is as easy as it is thrilling.</p>
+                    <div class="play-video-section">
+                        <img src="assets/img/game-detail-image2.svg" alt="how_to_play_image_thumbnail">
+                    </div>
+                    <div class="download-section">
+                        <h4>Download this game on:</h4>
+                        <a href="" target="_blank" class="app-store"><img src="assets/img/AppStore.svg"
+                                alt="appstore_icon"></a>
+                        <a href="" target="_blank" class="play-store"><img src="assets/img/PlayStore.svg"
+                                alt="playstore_icon"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="form-wrapper">
+                    <form action="">
+                        <h3>Fill out the form and we will be back to you</h3>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">First Name</label>
+                                    <input type="text" class="form-control" placeholder="Enter your First Name" id="name">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Second Name</label>
+                                    <input type="text" class="form-control" placeholder="Enter your Second Name" id="name">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" placeholder="Enter your Email Address" id="name">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Phone Number</label>
+                                    <input type="text" class="form-control" placeholder="Enter your Phone Number" id="name">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <?php include("partials/footer.php") ?>
