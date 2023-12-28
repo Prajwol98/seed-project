@@ -1,5 +1,36 @@
 <?php include("partials/header.php"); ?>
 
+<section class="welcome-slider">
+    <div class="item">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-lg-5 text-content py-120">
+                    <div class="content">
+                        <h1>A place where <span>Millionaires</span> are born</h1>
+                        <p>Step into the realm where millionaires are born with our curated selection of casino games, where high stakes and unparalleled luxury converge for an extraordinary gaming experience.</p>
+                        <div class="download-text">
+                            Download Now
+                        </div>
+                        <div class="download-btn-wrapper mt-4">
+                            <a href="#">
+                                <img src="assets/img/appstore.png" alt="">
+                            </a>
+                            <a href="#">
+                                <img src="assets/img/playstore.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 img-wrapper position-centered">
+                    <a id="playButton" href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="pop-up">
+                        <img src="assets/img/welcome-banner1.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section class="py-40">
     <div class="container">
         <div class="row">
