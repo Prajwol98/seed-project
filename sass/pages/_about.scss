@@ -1,5 +1,11 @@
 //about-page-top-section
 .about-page-top-section {
+  .clip-images {
+    position: absolute;
+    &.abt-i1 {
+      top: 50%;
+    }
+  }
   .left-section-wrapper {
     h1,
     h2,
@@ -42,6 +48,19 @@
 
 //brifing-section-wrapper
 .brifing-section-wrapper {
+  position: relative;
+  overflow: hidden;
+  .clip-images {
+    position: absolute;
+    &.abt-i1 {
+      right: 0;
+      top: 56px;
+    }
+    &.abt-i2 {
+      left: 0;
+      bottom: -6rem;
+    }
+  }
   .col-lg-7 {
     border-top: 2px dashed $primary;
     padding-top: 3.125rem;

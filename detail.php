@@ -1,5 +1,5 @@
 <?php include("partials/header.php") ?>
-<section class="breadcrumb-wrapper">
+<section class="breadcrumb-wrapper nav-mt">
     <div class="container">
         <div class="row">
             <nav aria-label="breadcrumb">

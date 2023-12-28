@@ -1,5 +1,5 @@
 <?php include("partials/header.php") ?>
-<section class="breadcrumb-wrapper">
+<section class="breadcrumb-wrapper nav-mt">
     <div class="container">
         <div class="row">
             <nav aria-label="breadcrumb">
@@ -13,6 +13,7 @@
 </section>
 
 <section class="py-80 about-page-top-section">
+    <img src="assets/img/dice.svg" class="clip-images abt-i1" alt="clip_image">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -36,6 +37,8 @@
 </section>
 
 <section class="py-80 brifing-section-wrapper">
+    <img src="assets/img/dice2.svg" class="clip-images abt-i1" alt="clip_image">
+    <img src="assets/img/how-to-play-clip3.svg" class="clip-images abt-i2" alt="clip_image">
     <div class="container">
         <div class="row justify-content-between">
             <div class="col-lg-5">
