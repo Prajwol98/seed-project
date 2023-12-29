@@ -1,4 +1,4 @@
-<footer class="main-footer pt-60">
+<!-- <footer class="main-footer pt-60">
     <img src="assets/img/footer-icon.png" class="icon one" alt="">
     <div class="container">
         <div class="row">
@@ -97,7 +97,7 @@
             </div>
         </div>
     </div>
-</footer>
+</footer> -->
 <a href="javascript:void(0)" id="return-to-top">
     <svg viewBox="0 0 24 24" width="24" height="24" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
         <polyline points="18 15 12 9 6 15"></polyline>

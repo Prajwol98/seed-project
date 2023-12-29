@@ -23,10 +23,9 @@ $page = end($link_array);
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    <!-- Caprasimo Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&display=swap" rel="stylesheet">
-    <!-- Onset Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arbutus&family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
 
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -41,9 +40,6 @@ $page = end($link_array);
 
 
 <body>
-    <!-- <div class="pre-loader">
-        <img src="assets/img/loader3.gif" alt="">
-    </div> -->
     <header class="main-header">
         <div class="container">
             <div class="row">
