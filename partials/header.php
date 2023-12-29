@@ -43,7 +43,7 @@ $page = end($link_array);
     <header class="main-header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-md-2 col-6 logo-wrapper">
+                <div class="col-lg-3 col-md-2 col-6 logo-wrapper d-flex align-items-center">
                     <a href="index.php">
                         <img src="assets/img/logo.png" alt="">
                     </a>
@@ -59,7 +59,9 @@ $page = end($link_array);
                     </ul>
                 </div>
                 <div class="col-lg-2 col-md-2 col-12 btn-wrapper">
-                    <a href="#" class="btn btn-v1 dark-bg">Download<span></span></a>
+                    <a href="#" class="btn primary">
+                        <img src="assets/img/btn-outlined.png" alt="">
+                    </a>
                 </div>
             </div>
         </div>
