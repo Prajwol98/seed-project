@@ -38,6 +38,7 @@ body {
   font-family: $font-secondary;
   overflow-x: hidden;
   position: relative;
+  // background-color: $green-dark-two;
 }
 
 a {
@@ -85,6 +86,14 @@ h6 {
 
 .font-primary {
   font-family: $font-primary;
+}
+
+.green-dark {
+  background-color: $green-dark;
+}
+
+.green-dark-two {
+  background-color: $green-dark-two;
 }
 
 .font-secondary {
@@ -468,7 +477,7 @@ h6 {
   padding: 80px 0;
 
   .text-content {
-    &>span {
+    & > span {
       font-size: 1.25rem;
       color: #000000;
       letter-spacing: 0.28em;
@@ -565,7 +574,6 @@ h6 {
 }
 
 .section-heading {
-
   h2,
   h3,
   h4,
@@ -578,7 +586,6 @@ h6 {
   }
 
   &.white-text {
-
     h2,
     p {
       color: $white !important;

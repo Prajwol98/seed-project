@@ -114,7 +114,7 @@
       },
     },
   });
-  $('.pop-up').magnificPopup({
-    type: 'iframe'
+  $(".pop-up").magnificPopup({
+    type: "iframe",
   });
 })(jQuery);

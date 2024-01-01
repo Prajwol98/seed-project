@@ -1,99 +1,184 @@
 .game-card-wrapper {
-    .img-wrapper {
-        overflow: hidden;
-        border: 2px solid white;
+  .img-wrapper {
+    overflow: hidden;
+    border: 2px solid white;
+
+    img {
+      width: 100%;
+      max-height: 380x;
+      object-fit: cover;
+      @include transition();
+    }
+  }
+
+  .text-content {
+    text-align: center;
+
+    .title {
+      font-family: $font-primary;
+      font-size: 1.25rem;
+      color: $title-color;
+      padding: 1rem;
+      text-align: center;
+      display: inline-block;
+      @include transition();
+      position: relative;
+
+      &:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 1rem;
+        height: 16px;
+        width: 24px;
+        background-repeat: no-repeat;
+        display: none;
+        background-image: url("data:image/svg+xml,%3Csvg width='24' height='13' viewBox='0 0 24 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24 6.5L14 0.726497V12.2735L24 6.5ZM0 7.5H15V5.5H0V7.5Z' fill='%23EC2024'/%3E%3C/svg%3E%0A");
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 0;
+        left: 50%;
+        height: 3px;
+        border-top: 1px solid $primary;
+        border-bottom: 1px solid $primary;
+
+        @include transition();
+      }
+    }
+  }
+
+  &.type-one {
+    &:hover {
+      .img-wrapper {
+        border-color: $secondary;
 
         img {
-            width: 100%;
-            max-height: 380x;
-            object-fit: cover;
-            @include transition();
-
+          transform: scale(1.05);
         }
-    }
+      }
 
-    .text-content {
-        text-align: center;
-
+      .text-content {
         .title {
-            font-family: $font-primary;
-            font-size: 1.25rem;
-            color: $title-color;
-            padding: 1rem;
-            text-align: center;
-            display: inline-block;
-            @include transition();
-            position: relative;
+          padding-right: 3rem;
+          color: $primary;
 
-            &:before {
-                content: "";
-                position: absolute;
-                top: 50%;
-                transform: translateY(-50%);
-                right: 1rem;
-                height: 16px;
-                width: 24px;
-                background-repeat: no-repeat;
-                display: none;
-                background-image: url("data:image/svg+xml,%3Csvg width='24' height='13' viewBox='0 0 24 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24 6.5L14 0.726497V12.2735L24 6.5ZM0 7.5H15V5.5H0V7.5Z' fill='%23EC2024'/%3E%3C/svg%3E%0A");
-            }
+          &::before {
+            display: inline;
+          }
 
-            &:after {
-                content: "";
-                position: absolute;
-                bottom: 0;
-                width: 0;
-                left: 50%;
-                height: 3px;
-                border-top: 1px solid $primary;
-                border-bottom: 1px solid $primary;
-
-                @include transition();
-            }
+          &:after {
+            width: 100%;
+            left: 0;
+          }
         }
+      }
     }
-
-    &.type-one {
-        &:hover {
-            .img-wrapper {
-                border-color: $secondary;
-
-                img {
-                    transform: scale(1.05);
-                }
-            }
-
-            .text-content {
-                .title {
-                    padding-right: 3rem;
-                    color: $primary;
-
-                    &::before {
-                        display: inline;
-                    }
-
-                    &:after {
-                        width: 100%;
-                        left: 0;
-                    }
-
-                }
-            }
-        }
-    }
+  }
 }
 
 .info-card-wrapper {
-    .img-wrapper {
-        margin-bottom: 1.5rem;
-    }
+  .img-wrapper {
+    margin-bottom: 1.5rem;
+  }
 
-    .text-content {
-        .title {
-            margin-bottom: 1rem;
-            color: $title-color;
-            font-family: $font-primary;
-            font-size: 1.25rem;
-        }
+  .text-content {
+    .title {
+      margin-bottom: 1rem;
+      color: $title-color;
+      font-family: $font-primary;
+      font-size: 1.25rem;
     }
+  }
+}
+
+//game-card
+.game-card {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(1, 31, 13, 0.3);
+  backdrop-filter: blur(8px);
+  width: 100%;
+  .image-wrapper {
+    margin-right: 1.5rem;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .right-content-wrapper {
+    padding: 1.5625rem 1.5625rem 0 0;
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $white;
+      font-family: $font-primary;
+      font-size: 1.5rem;
+      font-weight: 400;
+      line-height: 28.8px;
+      letter-spacing: -0.96px;
+      margin-bottom: 0.75rem;
+    }
+    p {
+      color: $white;
+      margin-bottom: 2rem;
+      font-family: $font-secondary;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 20.8px;
+    }
+    .btn {
+      width: fit-content;
+      &:first-child {
+        margin-top: -13px;
+      }
+      &:last-child {
+        margin-top: -1rem;
+      }
+    }
+  }
+}
+
+//why-choose-card
+.why-choose-card {
+  padding: 2rem;
+  background-color: #1d271d;
+  margin-bottom: 1.5rem;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  .icon-wrapper {
+    margin-right: 2rem;
+  }
+  .right-content-wrapper {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      color: $white;
+      font-family: $font-primary;
+      font-size: 1.25rem;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: -0.8px;
+      margin-bottom: 1rem;
+    }
+    p {
+      color: $white;
+      font-family: $font-secondary;
+      font-size: 1.125rem;
+      font-weight: 400;
+      line-height: 25.2px;
+      margin: 0;
+    }
+  }
 }

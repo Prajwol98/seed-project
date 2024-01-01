@@ -1,14 +1,16 @@
 /* ALL COLORS START */
 
 $theme-colors: (
-  "primary": #1AEF00,
-  "secondary": #F58B1F,
+  "primary": #1aef00,
+  "secondary": #f58b1f,
   "dark": #000000,
   "light": #f6f8f9,
 );
 
-$primary: #1AEF00;
-$secondary: #F58B1F;
+$primary: #1aef00;
+$green-dark: #0a1b06;
+$green-dark-two: #081308;
+$secondary: #f58b1f;
 $primary-dark: #d02604;
 $black: #000;
 $white: #fff;
@@ -21,12 +23,10 @@ $paragraph-color: #545454;
 /* ALL FONTS START */
 // font-family: 'Onest', sans-serif;
 
-$font-primary: 'Arbutus', serif;
-$font-secondary: 'Rubik', sans-serif;
+$font-primary: "Arbutus", serif;
+$font-secondary: "Rubik", sans-serif;
 
 /* ALL COLORS END */
-
-
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "base/mixins";
