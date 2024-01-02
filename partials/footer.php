@@ -1,8 +1,8 @@
-<div class="pt-80 green-dark-two triumph-footer">
-    <div class="left-box"></div>
+<div class="py-40 green-dark-two triumph-footer">
+    <img src="assets/img/cta-banner.png" class="cta-banner" alt="cta_banner">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 mx-auto text-center">
+            <div class="col-lg-6 mx-auto position-relative text-center">
                 <h4>Ready to triumph and conquer?</h4>
                 <p>Join the excitement and claim your victory now!</p>
                 <a href="#" class="btn primary">
