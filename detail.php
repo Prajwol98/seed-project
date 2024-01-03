@@ -167,50 +167,64 @@
     </div>
 </section>
 
-<section class="game-screenshot-section">
+<section class="pb-5 position-relative game-screenshot-section">
     <div class="container">
         <div class="row">
             <h3>Some Screenshots of Panda Master</h3>
-            <div class="row">
-                <div class="inner-screenshot-wrapper">
-                    <div class="image-wrapper">
-                        <img src="assets/img/dragon-background2.svg" alt="ss_photo">
-                    </div>
-                    <div class="image-wrapper">
-                        <img src="assets/img/dragon-background2.svg" alt="ss_photo">
-                    </div>
+        </div>
+        <div class="row position-relative">
+            <div class="right-border-line">
+                <svg width="17" height="729" viewBox="0 0 17 729" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line y1="-2" x2="729" y2="-2" transform="matrix(-2.42241e-08 -1 -1 7.88753e-08 0 729)"
+                        stroke="#1AEF00" stroke-width="4" />
+                    <path d="M17 465.339L17 263.66L1 203.903L1 525.096L17 465.339Z" fill="#1AEF00" />
+                </svg>
+            </div>
+            <div class="left-border-line">
+                <svg width="17" height="729" viewBox="0 0 17 729" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="15" y1="729" x2="15" y2="-1.5775e-07" stroke="#1AEF00" stroke-width="4" />
+                    <path d="M3.56551e-07 465.339L1.55991e-06 263.66L16 203.903L16 525.096L3.56551e-07 465.339Z"
+                        fill="#1AEF00" />
+                </svg>
+            </div>
+            <div class="inner-screenshot-wrapper">
+                <div class="image-wrapper">
+                    <img src="assets/img/dragon-background2.svg" alt="ss_photo">
                 </div>
-                <div class="inner-screenshot-wrapper">
-                    <div class="image-wrapper">
-                        <img src="assets/img/dragon-background2.svg" alt="ss_photo">
-                    </div>
-                    <div class="image-wrapper">
-                        <img src="assets/img/dragon-background2.svg" alt="ss_photo">
-                    </div>
+                <div class="image-wrapper">
+                    <img src="assets/img/dragon-background2.svg" alt="ss_photo">
                 </div>
-                <div class="inner-screenshot-wrapper">
-                    <div class="image-wrapper">
-                        <img src="assets/img/dragon-background2.svg" alt="ss_photo">
-                    </div>
-                    <div class="image-wrapper">
-                        <img src="assets/img/dragon-background2.svg" alt="ss_photo">
-                    </div>
+            </div>
+            <div class="inner-screenshot-wrapper">
+                <div class="image-wrapper">
+                    <img src="assets/img/dragon-background2.svg" alt="ss_photo">
                 </div>
-                <div class="inner-screenshot-wrapper">
-                    <div class="image-wrapper">
-                        <img src="assets/img/dragon-background2.svg" alt="ss_photo">
-                    </div>
-                    <div class="image-wrapper">
-                        <img src="assets/img/dragon-background2.svg" alt="ss_photo">
-                    </div>
+                <div class="image-wrapper">
+                    <img src="assets/img/dragon-background2.svg" alt="ss_photo">
                 </div>
-                <div class="inner-screenshot-wrapper">
-                    <div class="image-wrapper">
-                        <img src="assets/img/dragon-background2.svg" alt="ss_photo">
-                    </div>
-                    <div class="image-wrapper">
-                        <img src="assets/img/dragon-background2.svg" alt="ss_photo">
-                    </div>
+            </div>
+            <div class="inner-screenshot-wrapper">
+                <div class="image-wrapper">
+                    <img src="assets/img/dragon-background2.svg" alt="ss_photo">
+                </div>
+                <div class="image-wrapper">
+                    <img src="assets/img/dragon-background2.svg" alt="ss_photo">
+                </div>
+            </div>
+            <div class="inner-screenshot-wrapper">
+                <div class="image-wrapper">
+                    <img src="assets/img/dragon-background2.svg" alt="ss_photo">
+                </div>
+                <div class="image-wrapper">
+                    <img src="assets/img/dragon-background2.svg" alt="ss_photo">
+                </div>
+            </div>
+            <div class="inner-screenshot-wrapper">
+                <div class="image-wrapper">
+                    <img src="assets/img/dragon-background2.svg" alt="ss_photo">
+                </div>
+                <div class="image-wrapper">
+                    <img src="assets/img/dragon-background2.svg" alt="ss_photo">
                 </div>
             </div>
         </div>

@@ -1,4 +1,4 @@
-<div class="py-40 green-dark-two triumph-footer">
+<div class="pt-40 green-dark-two triumph-footer">
     <img src="assets/img/cta-banner.png" class="cta-banner" alt="cta_banner">
     <div class="container">
         <div class="row">
