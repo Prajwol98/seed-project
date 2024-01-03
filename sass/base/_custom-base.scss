@@ -1,3 +1,13 @@
+//star_background_image
+.star_background_image {
+  position: absolute;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 //breadcrum-wrapper
 .breadcrum-wrapper {
   border-radius: 4.25rem;
@@ -35,6 +45,7 @@
         font-weight: 400;
         line-height: 16.8px;
         letter-spacing: -0.56px;
+        text-decoration: none;
       }
     }
   }
@@ -355,6 +366,9 @@
 
 //top-listing-banner
 .top-listing-banner {
+  .star_background_image {
+    opacity: 0.3;
+  }
   h1,
   h2,
   h3,
@@ -394,14 +408,19 @@
   left: 0;
   transform: translateY(-50%);
   z-index: 111;
-  cursor: pointer
+  cursor: pointer;
 }
 @media (max-width: 767.98px) {
   .all-games {
-      top: unset;
-      left: 50%;
-      bottom: -90px;
-      transform: unset;
-      transform: rotate(-90deg)
+    top: unset;
+    left: 50%;
+    bottom: -90px;
+    transform: unset;
+    transform: rotate(-90deg);
   }
+}
+
+//map-section
+.map-section {
+  margin-top: -5rem;
 }

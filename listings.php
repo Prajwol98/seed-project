@@ -1,5 +1,6 @@
 <?php include("partials/header.php"); ?>
 <section class="py-80 green-dark-two top-listing-banner">
+    <img src="assets/img/Sparkle.svg" class="star_background_image" alt="star_background">
     <div class="container">
         <div class="mb-40 row">
             <div class="col-lg-10 mx-auto text-center">

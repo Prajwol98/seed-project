@@ -2,6 +2,7 @@
 <section class="green-dark position-relative home-banner-wrapper">
     <img src="assets/img/object1.svg" class="object1-image" alt="game-object-image">
     <img src="assets/img/dragon-background.svg" class="dragon-img" alt="game-object-image">
+    <img src="assets/img/Sparkle.svg" class="star_background_image" alt="star_background">
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto text-center">

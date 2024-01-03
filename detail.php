@@ -1,5 +1,6 @@
 <?php include("partials/header.php"); ?>
 <section class="py-60 position-relative detail-banner-wrapper">
+    <img src="assets/img/Sparkle.svg" class="star_background_image" alt="star_background">
     <img src="assets/img/detail-background-banner.svg" class="background-image" alt="detail-background-banner">
     <div class="container">
         <div class="row">
