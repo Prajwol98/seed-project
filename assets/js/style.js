@@ -6,6 +6,27 @@
     items: 1,
     dots: true,
   });
+
+  // mobile-burger-menu
+  $(".mobile-burger-menu").click(function () {
+    $(this).parents("header").find(".nav-items").addClass("show");
+    $("body").addClass("sidebar-open");
+    $(".home-banner-wrapper").css('z-index', -1);
+    $(".top-listing-banner").css('z-index', -1);
+    $(".detail-banner-wrapper").css('z-index', -1);
+    $(".about-top-section").css('z-index', -1);
+  });
+
+  // close-mobile-nav
+  $(".close-side-bar").click(function () {
+    $(this).parent(".nav-items").removeClass("show");
+    $("body").removeClass("sidebar-open");
+    $(".home-banner-wrapper").css('z-index', -1);
+    $(".top-listing-banner").css('z-index', -1);
+    $(".detail-banner-wrapper").css('z-index', -1);
+    $(".about-top-section").css('z-index', -1);
+  });
+
   //initialize tooltip
   var tooltipTriggerList = [].slice.call(
     document.querySelectorAll('[data-bs-toggle="tooltip"]')

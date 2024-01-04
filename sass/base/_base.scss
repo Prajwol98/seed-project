@@ -21,6 +21,7 @@
 
 // 1: Global CSS Start
 html {
+  overflow-x: hidden;
   @media (min-width: 300px) and (max-width: 1399.98px) {
     font-size: smaller;
   }
@@ -39,6 +40,10 @@ body {
   overflow-x: hidden;
   position: relative;
   // background-color: $green-dark-two;
+  &.sidebar-open {
+    overflow-y: hidden;
+    height: 100vh;
+  }
 }
 
 a {

@@ -1,0 +1,143 @@
+//mobile-burger-menu
+.mobile-burger-menu,
+.close-side-bar {
+  display: none;
+  cursor: pointer;
+}
+
+//breadcrum-wrapper
+.breadcrum-wrapper {
+  ol,
+  nav {
+    background: transparent;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-wrapper {
+    .inner-form-wrapper {
+      padding: 1rem;
+    }
+    .btn {
+      padding: 0;
+      svg {
+        width: 100%;
+      }
+    }
+  }
+
+  .game-screenshot-section {
+    .container {
+      & > .row {
+        justify-content: center;
+      }
+    }
+  }
+  .game-screenshot-section .inner-screenshot-wrapper {
+    width: 50%;
+  }
+
+  .detail-banner-wrapper {
+    .right-content-wrapper {
+      margin-top: 1.25rem;
+    }
+  }
+
+  .detail-video-section {
+    .bottom-content-wrapper {
+      flex-direction: column;
+    }
+  }
+
+  .feature-game-section {
+    .title-section {
+      &::before {
+        width: 100%;
+      }
+    }
+  }
+  .social-links {
+    justify-content: center;
+  }
+
+  .triumph-footer {
+    padding-bottom: 2rem;
+  }
+
+  .cta-banner {
+    display: none;
+  }
+
+  .main-header {
+    .container {
+      & > .row {
+        justify-content: center;
+      }
+    }
+  }
+
+  .mobile-burger-menu,
+  .close-side-bar {
+    display: block;
+  }
+
+  // header.main-header .btn-wrapper
+  header.main-header .btn-wrapper {
+    align-items: center;
+    justify-content: center;
+  }
+
+  //header nav-items
+  header {
+    padding: 0.75rem 0;
+    .btn-wrapper {
+      .btn {
+        z-index: -1;
+      }
+    }
+    .close-side-bar {
+      position: absolute;
+      top: 2rem;
+      right: 2rem;
+    }
+    .nav-items {
+      position: fixed;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      height: 100vh;
+      width: 100%;
+      background-color: $white;
+      justify-content: center !important;
+      overflow-y: scroll;
+      transform: translateX(100rem);
+      transition: 0.3s ease-in-out;
+      inset: 0;
+      &.show {
+        transform: unset;
+        ul {
+          li {
+            a {
+              color: #000 !important;
+            }
+          }
+        }
+      }
+      &.col-6 {
+        width: 100%;
+        max-width: 100%;
+      }
+      ul {
+        flex-direction: column;
+        justify-content: center;
+        li {
+          max-height: 90px;
+          a {
+            color: #000 !important;
+          }
+        }
+      }
+    }
+  }
+}

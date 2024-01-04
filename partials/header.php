@@ -52,6 +52,15 @@ $page = end($link_array);
                     </a>
                 </div>
                 <div class="col-lg-6 col-md-7 col-6 nav-items">
+                    <div class="close-side-bar">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="20"
+                            height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#000000" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M18 6l-12 12" />
+                            <path d="M6 6l12 12" />
+                        </svg>
+                    </div>
                     <ul>
                         <li><a href="index.php">Home</a></li>
                         <li><a href="listings.php">Games</a></li>
@@ -94,6 +103,16 @@ $page = end($link_array);
                             </defs>
                         </svg>
                     </a>
+                    <div class="mobile-burger-menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="20"
+                            height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M4 6l16 0" />
+                            <path d="M4 12l16 0" />
+                            <path d="M4 18l16 0" />
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>
