@@ -2,9 +2,12 @@
   setTimeout(() => {
     $(".pre-loader").hide();
   }, 1000);
-  $(".testimonial-carousel").owlCarousel({
+  $(".welcome-banner-carousel").owlCarousel({
     items: 1,
-    dots: true,
+    dots: false,
+    nav: true,
+    navText: ['<svg width="53" height="69" viewBox="0 0 53 69" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_d_260_80)"><path d="M42 54.5V14.5L14 34.5001L42 54.5Z" stroke="white" stroke-width="6" shape-rendering="crispEdges"/></g><defs><filter id="filter0_d_260_80" x="0.838623" y="0.670898" width="52.1614" height="67.6582" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset/><feGaussianBlur stdDeviation="4"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_260_80"/><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_260_80" result="shape"/></filter></defs></svg>',
+      '<svg width="53" height="69" viewBox="0 0 53 69" fill="none" xmlns="http://www.w3.org/2000/svg"><g filter="url(#filter0_d_260_79)"><path d="M11 54.5V14.5L39 34.5001L11 54.5Z" stroke="white" stroke-width="6" shape-rendering="crispEdges"/></g><defs><filter id="filter0_d_260_79" x="0" y="0.670898" width="52.1616" height="67.6582" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB"><feFlood flood-opacity="0" result="BackgroundImageFix"/><feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/><feOffset/><feGaussianBlur stdDeviation="4"/><feComposite in2="hardAlpha" operator="out"/><feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0"/><feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_260_79"/><feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_260_79" result="shape"/></filter></defs></svg>']
   });
 
   // mobile-burger-menu

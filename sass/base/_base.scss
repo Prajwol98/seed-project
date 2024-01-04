@@ -22,6 +22,7 @@
 // 1: Global CSS Start
 html {
   overflow-x: hidden;
+
   @media (min-width: 300px) and (max-width: 1399.98px) {
     font-size: smaller;
   }
@@ -39,7 +40,8 @@ body {
   font-family: $font-secondary;
   overflow-x: hidden;
   position: relative;
-  // background-color: $green-dark-two;
+  background-color: $primary;
+
   &.sidebar-open {
     overflow-y: hidden;
     height: 100vh;
@@ -82,7 +84,7 @@ h6 {
   @include transition();
   font-family: $font-primary;
   color: $title-color;
-  font-weight: 400;
+  font-weight: 700;
 }
 
 //2: Headings End
@@ -482,7 +484,7 @@ h6 {
   padding: 80px 0;
 
   .text-content {
-    & > span {
+    &>span {
       font-size: 1.25rem;
       color: #000000;
       letter-spacing: 0.28em;
@@ -579,6 +581,7 @@ h6 {
 }
 
 .section-heading {
+
   h2,
   h3,
   h4,
@@ -591,6 +594,7 @@ h6 {
   }
 
   &.white-text {
+
     h2,
     p {
       color: $white !important;

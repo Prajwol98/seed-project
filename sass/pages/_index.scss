@@ -1,166 +1,120 @@
-//home-banner-wrapper
-.home-banner-wrapper {
-  padding-top: 6.5rem;
-  padding-bottom: 17.875rem;
-  .mid-content {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      color: $white;
-      text-align: center;
-      font-family: $font-primary;
-      font-size: 3rem;
-      font-weight: 400;
-      line-height: 62.4px;
-      margin-bottom: 2rem;
-      span {
-        color: $primary;
-        font-family: $font-primary;
-        font-size: 3rem;
-        font-weight: 400;
-        line-height: 130%;
-      }
+.welcome-banner {
+
+
+    .welcome-banner-carousel {
+        position: relative;
+        z-index: 11;
+
+        .item {
+            min-height: 500px;
+            position: relative;
+            z-index: 11;
+
+            &::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 111;
+                pointer-events: none;
+                background-color: rgba($color: #000000, $alpha: 0.7);
+            }
+
+            &:after {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: 111;
+                pointer-events: none;
+                background-image: url('../img/noise-texture.png');
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                max-height: 100vh;
+
+                @media (max-width:767.98px) {
+                    height: 500px !important;
+                }
+            }
+
+            .text-content {
+                width: 100%;
+                position: absolute;
+                top: 50%;
+                z-index: 1111;
+                transform: translateY(-50%);
+
+                .count {
+                    color: $white;
+                    font-family: $font-primary;
+                    font-size: 1.25rem;
+                    position: absolute;
+                    top: 2.2rem;
+                    left: -3rem;
+                    transform: rotate(-90deg);
+                }
+
+                .content {
+                    h1 {
+                        margin-bottom: 1rem;
+                        color: $white;
+                        font-size: 4rem;
+                        text-transform: uppercase;
+
+                    }
+
+                    p {
+                        color: $white;
+                        font-size: 1.125rem;
+                    }
+
+                    .btn-wrapper {
+                        @media (max-width:450px) {
+                            a {
+                                margin-bottom: 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .owl-nav {
+            button {
+                position: absolute;
+                top: 70%;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: transparent !important;
+
+                    svg {
+                        color: $primary;
+                    }
+                }
+
+                &.owl-next {
+                    right: 7rem;
+                }
+
+                &.owl-prev {
+                    right: 11rem;
+                }
+
+                @media (max-width:767.98px) {
+                    top: 85%;
+                }
+            }
+        }
     }
-  }
-  p {
-    color: $white;
-    text-align: center;
-    font-family: $font-secondary;
-    font-size: 1.125rem;
-    font-weight: 400;
-    line-height: 25.2px;
-    margin-bottom: 3rem;
-  }
-}
 
-// object-image
-.object1-image {
-  position: absolute;
-  bottom: 0;
-  pointer-events: none;
-  height: 24.625rem;
-  width: 100%;
-  left: 0;
-  right: 0;
-  object-fit: cover;
-}
 
-.object2-image {
-  position: absolute;
-  bottom: 0;
-  pointer-events: none;
-  height: 11.75rem;
-  width: 100%;
-  left: 0;
-  right: 0;
-  object-fit: cover;
-}
-
-.object3-image {
-  position: absolute;
-  top: 0;
-  pointer-events: none;
-  height: 11.75rem;
-  width: 100%;
-  left: 0;
-  right: 0;
-  object-fit: cover;
-}
-
-.object4-image {
-  position: absolute;
-  top: 0;
-  pointer-events: none;
-  height: 100%;
-  width: 100%;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  object-fit: cover;
-}
-
-// dragon-img
-.dragon-img {
-  position: absolute;
-  top: 0;
-  pointer-events: none;
-  height: 100%;
-  opacity: 0.4;
-  width: 100%;
-  left: 0;
-  right: 0;
-  object-fit: cover;
-}
-
-//home-video-section
-.home-video-section {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: #363636;
-    text-align: center;
-    font-family: $font-primary;
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 28.8px;
-    letter-spacing: -0.96px;
-    margin-bottom: 1.5rem;
-  }
-  .pop-wrapper {
-    border: 8px solid $white;
-    margin-top: -12rem;
-  }
-  .bottom-content-wrapper {
-    padding: 0 3rem;
-  }
-}
-
-//feature-game-section
-.feature-game-section {
-  .object2-image {
-    bottom: 5rem;
-  }
-  .inner-game-list-wrapper {
-    border-bottom: 1px solid $primary;
-  }
-}
-
-//why-choose-section
-.why-choose-section {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    color: $white;
-    font-family: $font-primary;
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 38.4px;
-    letter-spacing: -1.28px;
-    margin-bottom: 1.5rem;
-    span {
-      color: $primary;
-      font-family: $font-primary;
-      font-size: 2rem;
-      font-weight: 400;
-      line-height: 120%;
-      letter-spacing: -1.28px;
-    }
-  }
-  p {
-    color: $white;
-    font-family: $font-secondary;
-    font-size: 1.125rem;
-    font-weight: 400;
-    line-height: 25.2px;
-    margin: 0;
-  }
 }
