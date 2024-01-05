@@ -56,4 +56,29 @@
   $(".pop-up").magnificPopup({
     type: "iframe",
   });
+  $("#lightgallery").lightGallery({
+    selector: ".item"
+  });
+  $(".certification-carousel").owlCarousel({
+    loop: false,
+    items: 1,
+    margin: 20,
+    dots: true,
+    nav: false,
+    responsive: {
+      0: {
+        items: 1
+      },
+      600: {
+        items: 1
+      },
+      1000: {
+        items: 4
+      }
+    },
+    navText: [
+      '<svg viewBox="0 0 24 24" width="24" height="24" stroke="#0d5ba4" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polyline points="15 18 9 12 15 6"></polyline></svg>',
+      '<svg viewBox="0 0 24 24" width="24" height="24" stroke="#0d5ba4" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><polyline points="9 18 15 12 9 6"></polyline></svg>',
+    ]
+  });
 })(jQuery);

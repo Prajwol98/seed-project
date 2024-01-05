@@ -26,7 +26,7 @@ $page = end($link_array);
     <!-- Magnific Popup -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/lightgallery@1.6.11/dist/css/lightgallery.min.css">
     <!-- Owl Carousel -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
@@ -60,16 +60,16 @@ $page = end($link_array);
                             </svg>
                         </div>
                         <li class="nav-item active">
-                            <a href="#">Home</a>
+                            <a href="index.php  ">Home</a>
                         </li>
                         <li class="nav-item">
                             <a href="listings.php">Our Games</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#">About Us</a>
+                            <a href="about.php">About Us</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#">Contact Us</a>
+                            <a href="contact.php">Contact Us</a>
                         </li>
                     </ul>
                 </div>

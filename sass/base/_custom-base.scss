@@ -10,10 +10,19 @@
     }
   }
 
+  &.flex-column {
+
+    h2,
+    p {
+      flex: unset
+    }
+  }
+
   h2 {
     flex: 1;
     font-size: 2rem;
     text-transform: uppercase;
+    margin-bottom: 1.5rem;
   }
 
   .text-content {
