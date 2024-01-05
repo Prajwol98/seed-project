@@ -86,6 +86,14 @@
                 </ul>
             </div>
         </div>
+        <div class="row">
+            <hr class="mb-3">
+            <div class="col-12 bottom-footer d-sm-flex">
+
+                <p>© 2024, icafegames.com</p>
+                <p>Website bought into life by: <a href="#">Makura Creations</a></p>
+            </div>
+        </div>
     </div>
 </footer>
 

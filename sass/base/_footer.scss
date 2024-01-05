@@ -62,4 +62,21 @@ footer.main-footer {
       }
     }
   }
+
+  .bottom-footer {
+    justify-content: space-between;
+
+    p {
+      margin-bottom: 0;
+
+      a {
+        color: $white;
+        font-weight: 500;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
 }

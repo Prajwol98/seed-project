@@ -63,7 +63,7 @@ $page = end($link_array);
                             <a href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#">Our Games</a>
+                            <a href="listings.php">Our Games</a>
                         </li>
                         <li class="nav-item">
                             <a href="#">About Us</a>

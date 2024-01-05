@@ -43,6 +43,10 @@
   }
 }
 
+hr {
+  background-color: $white;
+}
+
 .general-text-content {
 
   h1,
@@ -130,4 +134,48 @@
 .fade-in {
   animation: fadeIn 3s ease-in-out infinite;
   /* Animation name, duration, and timing function */
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+
+  .form-control {
+    width: 100%;
+    border-radius: 0 !important;
+    background-color: transparent;
+    border: 1px solid white !important;
+    color: $white;
+    padding: 1rem;
+
+    &::placeholder {
+      color: $white;
+    }
+  }
+
+
+}
+
+.contact-section {
+  input[type='submit'] {
+    padding-bottom: 1rem !important;
+  }
+}
+
+.pagination {
+  justify-content: center;
+
+  span,
+  a {
+    color: $white;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border: 1px solid $white;
+    @extend .position-centered;
+    font-family: $font-primary;
+
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+  }
 }
