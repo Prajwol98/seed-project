@@ -434,6 +434,27 @@ h6 {
   @extend .pb-120;
 }
 
+.pt-140 {
+  padding-top: 8.75rem;
+
+  @media (max-width: 767.98px) {
+    padding-top: 2rem;
+  }
+}
+
+.pb-140 {
+  padding-bottom: 8.75rem;
+
+  @media (max-width: 767.98px) {
+    padding-bottom: 2rem;
+  }
+}
+
+.py-140 {
+  @extend .pt-140;
+  @extend .pb-140;
+}
+
 // 8: Paddings Ends
 
 // 9: Return to Top Start
@@ -580,27 +601,6 @@ h6 {
   box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
 }
 
-.section-heading {
-
-  h2,
-  h3,
-  h4,
-  h1 {
-    margin-bottom: 1rem;
-
-    span {
-      color: $secondary;
-    }
-  }
-
-  &.white-text {
-
-    h2,
-    p {
-      color: $white !important;
-    }
-  }
-}
 
 .position-centered {
   display: flex;

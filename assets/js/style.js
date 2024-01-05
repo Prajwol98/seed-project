@@ -2,6 +2,9 @@
   setTimeout(() => {
     $(".pre-loader").hide();
   }, 1000);
+  $('.pop-up').magnificPopup({
+    type: 'iframe'
+  });
   $(".welcome-banner-carousel").owlCarousel({
     items: 1,
     dots: false,

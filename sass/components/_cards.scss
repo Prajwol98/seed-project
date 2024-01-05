@@ -1,184 +1,67 @@
 .game-card-wrapper {
-  .img-wrapper {
-    overflow: hidden;
-    border: 2px solid white;
+  .game-card {
+    display: block;
 
-    img {
-      width: 100%;
-      max-height: 380x;
-      object-fit: cover;
+    .img-wrapper {
+      border: 2px solid transparent;
       @include transition();
-    }
-  }
 
-  .text-content {
-    text-align: center;
-
-    .title {
-      font-family: $font-primary;
-      font-size: 1.25rem;
-      color: $title-color;
-      padding: 1rem;
-      text-align: center;
-      display: inline-block;
-      @include transition();
-      position: relative;
-
-      &:before {
-        content: "";
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
-        right: 1rem;
-        height: 16px;
-        width: 24px;
-        background-repeat: no-repeat;
-        display: none;
-        background-image: url("data:image/svg+xml,%3Csvg width='24' height='13' viewBox='0 0 24 13' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M24 6.5L14 0.726497V12.2735L24 6.5ZM0 7.5H15V5.5H0V7.5Z' fill='%23EC2024'/%3E%3C/svg%3E%0A");
-      }
-
-      &:after {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        width: 0;
-        left: 50%;
-        height: 3px;
-        border-top: 1px solid $primary;
-        border-bottom: 1px solid $primary;
-
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
         @include transition();
       }
     }
-  }
 
-  &.type-one {
+    p {
+      font-family: $font-primary;
+      color: $white;
+      font-weight: bold;
+      padding: 1rem;
+      text-transform: uppercase;
+      text-align: center;
+      margin-bottom: 0;
+    }
+
     &:hover {
       .img-wrapper {
-        border-color: $secondary;
-
-        img {
-          transform: scale(1.05);
-        }
+        border-color: white;
       }
 
-      .text-content {
-        .title {
-          padding-right: 3rem;
-          color: $primary;
-
-          &::before {
-            display: inline;
-          }
-
-          &:after {
-            width: 100%;
-            left: 0;
-          }
-        }
+      p {
+        text-decoration: underline;
       }
     }
   }
 }
 
-.info-card-wrapper {
-  .img-wrapper {
-    margin-bottom: 1.5rem;
+.video-card-wrapper {
+  @media (min-width:991.98px) {
+    padding-right: 4rem;
   }
 
-  .text-content {
-    .title {
-      margin-bottom: 1rem;
-      color: $title-color;
-      font-family: $font-primary;
-      font-size: 1.25rem;
-    }
-  }
-}
+  .video-card {
+    border: 4px solid $white;
+    height: 100%;
+    padding: 2rem;
 
-//game-card
-.game-card {
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  background: rgba(1, 31, 13, 0.3);
-  backdrop-filter: blur(8px);
-  width: 100%;
-  .image-wrapper {
-    margin-right: 1.5rem;
-    img {
-      height: 100%;
-      width: 100%;
-      object-fit: cover;
-    }
-  }
-  .right-content-wrapper {
-    padding: 1.5625rem 1.5625rem 0 0;
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-      color: $white;
-      font-family: $font-primary;
-      font-size: 1.5rem;
-      font-weight: 400;
-      line-height: 28.8px;
-      letter-spacing: -0.96px;
-      margin-bottom: 0.75rem;
-    }
-    p {
-      color: $white;
-      margin-bottom: 2rem;
-      font-family: $font-secondary;
-      font-size: 1rem;
-      font-weight: 400;
-      line-height: 20.8px;
-    }
-    .btn {
-      width: fit-content;
-      &:first-child {
-        margin-top: -13px;
-      }
-      &:last-child {
-        margin-top: -1rem;
+    .img-wrapper {
+      img {
+        width: 100%;
+        max-height: 400px;
+        object-fit: cover;
+        border: 1px solid $white;
       }
     }
-  }
-}
 
-//why-choose-card
-.why-choose-card {
-  padding: 2rem;
-  background-color: #1d271d;
-  margin-bottom: 1.5rem;
-  &:last-child {
-    margin-bottom: 0;
-  }
-  .icon-wrapper {
-    margin-right: 2rem;
-  }
-  .right-content-wrapper {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
+    .text-content {
       color: $white;
-      font-family: $font-primary;
-      font-size: 1.25rem;
-      font-weight: 400;
-      line-height: 24px;
-      letter-spacing: -0.8px;
-      margin-bottom: 1rem;
-    }
-    p {
-      color: $white;
-      font-family: $font-secondary;
-      font-size: 1.125rem;
-      font-weight: 400;
-      line-height: 25.2px;
-      margin: 0;
+      font-weight: bold;
+      text-transform: uppercase;
+      text-align: center;
+      margin-top: 1rem;
+      cursor: pointer;
     }
   }
 }

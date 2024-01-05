@@ -118,3 +118,33 @@
 
 
 }
+
+.home-game-listings {
+    overflow: hidden;
+
+    .coin-img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+}
+
+.banner-content {
+    position: relative;
+
+    .banner-coin {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        &.one {
+            left: 0;
+        }
+
+        &.two {
+            right: 0;
+        }
+
+    }
+}
