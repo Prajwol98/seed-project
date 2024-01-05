@@ -33,7 +33,7 @@ a {
 }
 
 p {
-  color: $paragraph-color;
+  color: $white;
 }
 
 body {
@@ -83,7 +83,7 @@ h5,
 h6 {
   @include transition();
   font-family: $font-primary;
-  color: $title-color;
+  color: $white;
   font-weight: 700;
 }
 
