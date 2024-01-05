@@ -33,3 +33,46 @@ $page = end($link_array);
 </head>
 
 <body>
+
+    <header class="main-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-3 logo-wrapper">
+                    <a href="#">
+                        <img src="assets/img/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="col-9 nav-items">
+                    <div class="ham-menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="#fff" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <path d="M4 6l16 0" />
+                            <path d="M4 12l16 0" />
+                            <path d="M4 18l16 0" />
+                        </svg>
+                    </div>
+                    <ul class="wrapper">
+                        <div class="close text-end">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M18 6l-12 12" />
+                                <path d="M6 6l12 12" />
+                            </svg>
+                        </div>
+                        <li class="nav-item active">
+                            <a href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Our Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>

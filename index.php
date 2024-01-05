@@ -1,6 +1,27 @@
 <?php include("partials/header.php"); ?>
 
-<section class="welcome-banner">
+<section class="welcome-banner position-relative">
+    <a href="#" class="btn transparent not view-all-sites">VIEW ALL SITES</a>
+    <a href="#games" class="scroller d-blcok">
+        <svg class=" fade-in" width="52" height="42" viewBox="0 0 52 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g filter="url(#filter0_d_278_742)">
+                <path d="M12 10L40 10L25.9999 30L12 10Z" stroke="white" stroke-width="4" shape-rendering="crispEdges" />
+            </g>
+            <defs>
+                <filter id="filter0_d_278_742" x="0.158691" y="0" width="51.6826" height="41.4873" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                    <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                    <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                    <feOffset />
+                    <feGaussianBlur stdDeviation="4" />
+                    <feComposite in2="hardAlpha" operator="out" />
+                    <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.5 0" />
+                    <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_278_742" />
+                    <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_278_742" result="shape" />
+                </filter>
+            </defs>
+        </svg>
+        SCROLL DOWN
+    </a>
     <div class="owl-carousel owl-theme welcome-banner-carousel">
         <div class="item">
 
@@ -49,7 +70,7 @@
     </div>
 </section>
 
-<section class="home-game-listings pb-60 pt-140 position-relative">
+<section id="games" class="home-game-listings pb-60 pt-140 position-relative">
     <img src="assets/img/game-listing-top-coin.png" alt="" class="coin-img">
     <div class="container">
         <div class="row">
@@ -208,7 +229,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12 content-wrapper py-40 text-center border-1">
-                <h2 class="mb-4 text-white w-50 mx-auto">Contact us to play any games or if you have any inqueries or queries</h2>
+                <h2 class="mb-5 text-white w-50 mx-auto">Contact us to play any games or if you have any inqueries or queries</h2>
                 <a href="#" class="btn transparent">View All Games</a>
             </div>
         </div>

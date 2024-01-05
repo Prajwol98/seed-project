@@ -1,5 +1,26 @@
 .welcome-banner {
 
+    .view-all-sites {
+        position: fixed;
+        top: 50%;
+        left: -90px;
+        transform: translateY(-50%);
+        z-index: 111;
+        transform: rotate(-90deg);
+
+        @media (max-width:1500px) {
+            left: -70px;
+        }
+
+        @media (max-width:767.98px) {
+            top: unset;
+            bottom: 0;
+            transform: unset;
+            transform: translateX(-50%);
+            left: 50%;
+            padding: 1rem !important;
+        }
+    }
 
     .welcome-banner-carousel {
         position: relative;
@@ -121,6 +142,7 @@
 
 .home-game-listings {
     overflow: hidden;
+    margin-top: -20px;
 
     .coin-img {
         position: absolute;

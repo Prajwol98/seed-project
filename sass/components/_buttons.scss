@@ -20,6 +20,15 @@
     background-color: $white;
   }
 
+  &.not {
+    background-color: $white;
+    color: $black;
+
+    &::before {
+      background-color: $black;
+    }
+  }
+
   &:hover {
     background-color: $white;
 
