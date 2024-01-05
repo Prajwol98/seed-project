@@ -38,7 +38,7 @@ $page = end($link_array);
         <div class="container">
             <div class="row">
                 <div class="col-3 logo-wrapper">
-                    <a href="#">
+                    <a href="index.php">
                         <img src="assets/img/logo.png" alt="">
                     </a>
                 </div>

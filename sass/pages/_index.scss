@@ -1,4 +1,8 @@
 .welcome-banner {
+    &.breadcrumb {
+        height: 500px;
+        overflow: hidden;
+    }
 
     .view-all-sites {
         position: fixed;
@@ -169,5 +173,10 @@
         }
 
     }
-}
 
+    @media (max-width:767.98px) {
+        .w-50 {
+            width: 75% !important;
+        }
+    }
+}

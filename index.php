@@ -37,8 +37,8 @@
                             <h1>Golden Wheel</h1>
                             <p>Step into the realm where millionaires are born with our curated selection of casino games, where high stakes for an extraordinary gaming experience.</p>
                             <div class="btn-wrapper mt-5">
-                                <a href="#" class="btn transparent me-3">PLAY THIS GAME</a>
-                                <a href="#" class="btn transparent">VIEW IN DETAIL</a>
+                                <a href="detail.php" class="btn transparent me-3">PLAY THIS GAME</a>
+                                <a href="detail.php" class="btn transparent">VIEW IN DETAIL</a>
                             </div>
                         </div>
                     </div>
@@ -59,8 +59,8 @@
                             <h1>Golden Wheel</h1>
                             <p>Step into the realm where millionaires are born with our curated selection of casino games, where high stakes for an extraordinary gaming experience.</p>
                             <div class="btn-wrapper mt-5">
-                                <a href="#" class="btn transparent me-3">PLAY THIS GAME</a>
-                                <a href="#" class="btn transparent">VIEW IN DETAIL</a>
+                                <a href="detail.php" class="btn transparent me-3">PLAY THIS GAME</a>
+                                <a href="detail.php" class="btn transparent">VIEW IN DETAIL</a>
                             </div>
                         </div>
                     </div>
@@ -85,7 +85,7 @@
         </div>
         <div class="row">
             <div class="col-xl-2 col-lg-3 col-sm-4 col-6 mb-4 game-card-wrapper">
-                <a href="#" class="game-card">
+                <a href="detail.php" class="game-card">
                     <div class="img-wrapper">
                         <img src="assets/img/game3.png" alt="">
                     </div>
@@ -93,7 +93,7 @@
                 </a>
             </div>
             <div class="col-xl-2 col-lg-3 col-sm-4 col-6 mb-4 game-card-wrapper">
-                <a href="#" class="game-card">
+                <a href="detail.php" class="game-card">
                     <div class="img-wrapper">
                         <img src="assets/img/game4.png" alt="">
                     </div>
@@ -101,7 +101,7 @@
                 </a>
             </div>
             <div class="col-xl-2 col-lg-3 col-sm-4 col-6 mb-4 game-card-wrapper">
-                <a href="#" class="game-card">
+                <a href="detail.php" class="game-card">
                     <div class="img-wrapper">
                         <img src="assets/img/game10.png" alt="">
                     </div>
@@ -109,7 +109,7 @@
                 </a>
             </div>
             <div class="col-xl-2 col-lg-3 col-sm-4 col-6 mb-4 game-card-wrapper">
-                <a href="#" class="game-card">
+                <a href="detail.php" class="game-card">
                     <div class="img-wrapper">
                         <img src="assets/img/game6.png" alt="">
                     </div>
@@ -117,7 +117,7 @@
                 </a>
             </div>
             <div class="col-xl-2 col-lg-3 col-sm-4 col-6 mb-4 game-card-wrapper">
-                <a href="#" class="game-card">
+                <a href="detail.php" class="game-card">
                     <div class="img-wrapper">
                         <img src="assets/img/game7.png" alt="">
                     </div>
@@ -125,7 +125,7 @@
                 </a>
             </div>
             <div class="col-xl-2 col-lg-3 col-sm-4 col-6 mb-4 game-card-wrapper">
-                <a href="#" class="game-card">
+                <a href="detail.php" class="game-card">
                     <div class="img-wrapper">
                         <img src="assets/img/game8.png" alt="">
                     </div>
@@ -133,7 +133,7 @@
                 </a>
             </div>
             <div class="col-xl-2 col-lg-3 col-sm-4 col-6 mb-4 game-card-wrapper">
-                <a href="#" class="game-card">
+                <a href="detail.php" class="game-card">
                     <div class="img-wrapper">
                         <img src="assets/img/game9.png" alt="">
                     </div>
@@ -141,7 +141,7 @@
                 </a>
             </div>
             <div class="col-xl-2 col-lg-3 col-sm-4 col-6 mb-4 game-card-wrapper">
-                <a href="#" class="game-card">
+                <a href="detail.php" class="game-card">
                     <div class="img-wrapper">
                         <img src="assets/img/game10.png" alt="">
                     </div>
@@ -149,7 +149,7 @@
                 </a>
             </div>
             <div class="col-xl-2 col-lg-3 col-sm-4 col-6 mb-4 game-card-wrapper">
-                <a href="#" class="game-card">
+                <a href="detail.php" class="game-card">
                     <div class="img-wrapper">
                         <img src="assets/img/game8.png" alt="">
                     </div>
@@ -181,7 +181,7 @@
                 </a>
             </div>
             <div class="col-12 btn-wrapper text-center mt-4">
-                <a href="listings.php" class="btn transparent">View ALl Games</a>
+                <a href="listings.php" class="btn transparent">View All Games</a>
             </div>
         </div>
     </div>
