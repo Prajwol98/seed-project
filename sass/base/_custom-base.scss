@@ -1,0 +1,9 @@
+.main-content {
+    width: calc(100% - 200px);
+
+    @media (max-width:991.98px) {
+        width: 100%;
+    }
+
+    margin-left: auto;
+}

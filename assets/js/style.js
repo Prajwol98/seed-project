@@ -24,11 +24,9 @@
     $("body,html").animate({ scrollTop: 0 }, 1000);
   });
   //responsive navbar
-  $(".close").click(function () {
-    $(".nav-items .wrapper").removeClass("show");
-  });
-  $(".ham-menu").click(function () {
-    $(".nav-items .wrapper").addClass("show");
+  $("#ham-menu").click(function () {
+    $(".sidebar").toggleClass("show");
+    $("#ham-menu").toggleClass("show");
   });
 
 

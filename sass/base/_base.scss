@@ -40,7 +40,7 @@ body {
   font-family: $font-secondary;
   overflow-x: hidden;
   position: relative;
-  background-color: $primary;
+  background-color: #0D040E;
 
   &.sidebar-open {
     overflow-y: hidden;
@@ -175,6 +175,10 @@ h6 {
 
 .font-64 {
   font-size: 4rem !important;
+
+  @media (max-width:991px) {
+    font-size: 2.5rem !important;
+  }
 }
 
 .ls-1 {

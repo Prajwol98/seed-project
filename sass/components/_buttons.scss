@@ -1,0 +1,28 @@
+.btn {
+    color: $white;
+    font-family: $font-primary;
+    font-size: 1.5rem;
+    position: relative;
+    height: 68px;
+    width: 284px;
+    @extend .position-centered;
+    @include transition();
+
+    &.bordered {
+        &::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-repeat: no-repeat;
+            background-image: url("data:image/svg+xml,%3Csvg width='276' height='64' viewBox='0 0 276 64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg filter='url(%23filter0_d_456_4)'%3E%3Cpath d='M38.6251 11.5624C40.1088 9.33681 42.6066 8 45.2815 8H230.719C233.393 8 235.891 9.33681 237.375 11.5624L248.042 27.5624C249.833 30.2496 249.833 33.7504 248.042 36.4376L237.375 52.4376C235.891 54.6632 233.393 56 230.719 56H45.2815C42.6066 56 40.1088 54.6632 38.6251 52.4376L27.9584 36.4376C26.1669 33.7504 26.1669 30.2496 27.9584 27.5624L38.6251 11.5624Z' stroke='%2300FCFE' stroke-width='3' stroke-linejoin='round' shape-rendering='crispEdges'/%3E%3C/g%3E%3Cpath d='M246 5.5L260.589 27.5915C262.354 30.2653 262.354 33.7347 260.589 36.4085L246 58.5' stroke='%2300FCFE' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M29.5 5.5L14.9113 27.5915C13.1456 30.2653 13.1456 33.7347 14.9113 36.4085L29.5 58.5' stroke='%2300FCFE' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M265 16L272.62 27.6107C274.368 30.2756 274.368 33.7244 272.62 36.3893L265 48' stroke='%2300FCFE' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M10.5 16L2.88045 27.6107C1.13163 30.2756 1.13162 33.7244 2.88045 36.3893L10.5 48' stroke='%2300FCFE' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cdefs%3E%3Cfilter id='filter0_d_456_4' x='19.1147' y='0.5' width='237.771' height='63' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'%3E%3CfeFlood flood-opacity='0' result='BackgroundImageFix'/%3E%3CfeColorMatrix in='SourceAlpha' type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0' result='hardAlpha'/%3E%3CfeOffset/%3E%3CfeGaussianBlur stdDeviation='3'/%3E%3CfeComposite in2='hardAlpha' operator='out'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0.988235 0 0 0 0 0.996078 0 0 0 1 0'/%3E%3CfeBlend mode='normal' in2='BackgroundImageFix' result='effect1_dropShadow_456_4'/%3E%3CfeBlend mode='normal' in='SourceGraphic' in2='effect1_dropShadow_456_4' result='shape'/%3E%3C/filter%3E%3C/defs%3E%3C/svg%3E%0A");
+        }
+
+        &:hover {
+            color: $primary;
+            transform: scale(1.05);
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.game-card-wrapper {
+    .game-card {
+        border-radius: 8px;
+        border: 1px solid rgba(255, 255, 255, 0.20);
+        background: rgba(26, 32, 52, 0.70);
+        backdrop-filter: blur(8px);
+        padding: 1rem;
+        @include transition();
+
+        .img-wrapper {
+            height: 100%;
+            margin-right: 1.5rem;
+            min-width: 200px;
+            height: 200px;
+            width: 200px;
+            border-radius: 8px;
+            border: 1px solid #FFF;
+            overflow: hidden;
+
+            img {
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+
+        .text-content {
+            h2 {
+                font-size: 1.75rem;
+                color: $primary;
+            }
+        }
+
+        &:hover {
+            box-shadow: 0px 0px 12px 0px #00FCFE;
+        }
+
+        .btn {
+            &:hover {
+                transform: unset;
+            }
+        }
+
+    }
+}
