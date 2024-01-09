@@ -158,3 +158,9 @@
         }
     }
 }
+
+.notice-banner {
+    .content-wrapper {
+        @extend .light-border;
+    }
+}

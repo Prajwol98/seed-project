@@ -7,13 +7,13 @@
             <a href="index.php">Home</a>
         </li>
         <li>
-            <a href="index.php">Other Games</a>
+            <a href="listings.php">Other Games</a>
         </li>
         <li>
-            <a href="index.php">About</a>
+            <a href="about.php">About</a>
         </li>
         <li>
-            <a href="index.php">Contact</a>
+            <a href="contact.php">Contact</a>
         </li>
     </ul>
     <div class="links-wrapper">
