@@ -1,6 +1,8 @@
 .welcome-banner {
     height: 100vh;
 
+
+
     .bg-img {
         position: absolute;
         top: 0;
@@ -10,10 +12,32 @@
         height: 100vh;
     }
 
+    &.detail {
+        height: 70vh;
+
+        .bg-img {
+            height: 70vh;
+        }
+
+        @media (max-width:767.98px) {
+            height: 100vh;
+
+            .bg-img {
+                height: 100vh;
+            }
+        }
+
+        .container,
+        .text-content {
+            padding-left: 12px !important;
+        }
+    }
+
     .text-content-wrapper {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
+        width: 100%;
 
         .text-content {
             @media (min-width:991.98px) {
