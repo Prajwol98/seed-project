@@ -1,38 +1,45 @@
-<footer class="main-footer py-60 main-content">
+<footer class="main-footer pb-60 pt-100 main-content position-relative">
+    <img src="assets/img/footer-bg.png" alt="" class="footer-bg">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-sm-6 mb-lg-0 mb-4 about">
                 <img src="assets/img/logo.png" alt="">
-                <p>Every internet cafe games related to slots and sweepstakes</p>
-                <ul class="social-links">
+                <p>Dive into the cosmic adventure of Web Orion Stars </p>
+                <ul class="d-flex info-list-item">
                     <li>
                         <a href="#">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M14.0181 21V12.79H16.7728L17.186 9.58941H14.0181V7.54632C14.0181 6.61998 14.2743 5.98869 15.6042 5.98869L17.2975 5.98799V3.12531C17.0047 3.08725 15.9995 3 14.8295 3C12.3863 3 10.7137 4.49127 10.7137 7.22934V9.58941H7.95068V12.79H10.7137V21H14.0181Z" fill="white" />
-                            </svg>
+                            <div class="icon-wrapper">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.0181 21V12.79H16.7728L17.186 9.58941H14.0181V7.54632C14.0181 6.61998 14.2743 5.98869 15.6042 5.98869L17.2975 5.98799V3.12531C17.0047 3.08725 15.9995 3 14.8295 3C12.3863 3 10.7137 4.49127 10.7137 7.22934V9.58941H7.95068V12.79H10.7137V21H14.0181Z" fill="white" />
+                                </svg>
+                            </div>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M14.2833 10.1137L20.403 3H18.9528L13.6391 9.17668L9.39502 3H4.5L10.9179 12.3402L4.5 19.8H5.95025L11.5617 13.2772L16.0437 19.8H20.9388L14.2829 10.1137H14.2833ZM12.297 12.4225L11.6467 11.4925L6.4728 4.09173H8.70031L12.8757 10.0644L13.526 10.9944L18.9535 18.7579H16.726L12.297 12.4229V12.4225Z" fill="white" />
-                            </svg>
+                            <div class="icon-wrapper">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14.2833 10.1137L20.403 3H18.9528L13.6391 9.17668L9.39502 3H4.5L10.9179 12.3402L4.5 19.8H5.95025L11.5617 13.2772L16.0437 19.8H20.9388L14.2829 10.1137H14.2833ZM12.297 12.4225L11.6467 11.4925L6.4728 4.09173H8.70031L12.8757 10.0644L13.526 10.9944L18.9535 18.7579H16.726L12.297 12.4229V12.4225Z" fill="white" />
+                                </svg>
+                            </div>
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <g clip-path="url(#clip0_271_262)">
-                                    <path d="M14.7952 3H8.00481C5.24515 3 3 5.24515 3 8.00481V14.7952C3 17.5549 5.24515 19.8 8.00481 19.8H14.7952C17.5549 19.8 19.8 17.5549 19.8 14.7952V8.00481C19.8 5.24515 17.5548 3 14.7952 3ZM18.1099 14.7952C18.1099 16.6258 16.6258 18.1099 14.7952 18.1099H8.00481C6.17415 18.1099 4.69008 16.6258 4.69008 14.7952V8.00481C4.69008 6.17412 6.17415 4.69008 8.00481 4.69008H14.7952C16.6258 4.69008 18.1099 6.17412 18.1099 8.00481V14.7952Z" fill="white" />
-                                    <path d="M11.4 7.05469C9.00413 7.05469 7.05493 9.00389 7.05493 11.3997C7.05493 13.7956 9.00413 15.7448 11.4 15.7448C13.7959 15.7448 15.7451 13.7956 15.7451 11.3997C15.7451 9.00385 13.7959 7.05469 11.4 7.05469ZM11.4 14.0548C9.93368 14.0548 8.74501 12.8661 8.74501 11.3998C8.74501 9.93344 9.93371 8.74477 11.4 8.74477C12.8663 8.74477 14.055 9.93344 14.055 11.3998C14.055 12.8661 12.8663 14.0548 11.4 14.0548Z" fill="white" />
-                                    <path d="M15.7533 8.12921C16.3284 8.12921 16.7945 7.66307 16.7945 7.08805C16.7945 6.51302 16.3284 6.04688 15.7533 6.04688C15.1783 6.04688 14.7122 6.51302 14.7122 7.08805C14.7122 7.66307 15.1783 8.12921 15.7533 8.12921Z" fill="white" />
-                                </g>
-                                <defs>
-                                    <clipPath id="clip0_271_262">
-                                        <rect width="16.8" height="16.8" fill="white" transform="translate(3 3)" />
-                                    </clipPath>
-                                </defs>
-                            </svg>
+                            <div class="icon-wrapper">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0_271_262)">
+                                        <path d="M14.7952 3H8.00481C5.24515 3 3 5.24515 3 8.00481V14.7952C3 17.5549 5.24515 19.8 8.00481 19.8H14.7952C17.5549 19.8 19.8 17.5549 19.8 14.7952V8.00481C19.8 5.24515 17.5548 3 14.7952 3ZM18.1099 14.7952C18.1099 16.6258 16.6258 18.1099 14.7952 18.1099H8.00481C6.17415 18.1099 4.69008 16.6258 4.69008 14.7952V8.00481C4.69008 6.17412 6.17415 4.69008 8.00481 4.69008H14.7952C16.6258 4.69008 18.1099 6.17412 18.1099 8.00481V14.7952Z" fill="white" />
+                                        <path d="M11.4 7.05469C9.00413 7.05469 7.05493 9.00389 7.05493 11.3997C7.05493 13.7956 9.00413 15.7448 11.4 15.7448C13.7959 15.7448 15.7451 13.7956 15.7451 11.3997C15.7451 9.00385 13.7959 7.05469 11.4 7.05469ZM11.4 14.0548C9.93368 14.0548 8.74501 12.8661 8.74501 11.3998C8.74501 9.93344 9.93371 8.74477 11.4 8.74477C12.8663 8.74477 14.055 9.93344 14.055 11.3998C14.055 12.8661 12.8663 14.0548 11.4 14.0548Z" fill="white" />
+                                        <path d="M15.7533 8.12921C16.3284 8.12921 16.7945 7.66307 16.7945 7.08805C16.7945 6.51302 16.3284 6.04688 15.7533 6.04688C15.1783 6.04688 14.7122 6.51302 14.7122 7.08805C14.7122 7.66307 15.1783 8.12921 15.7533 8.12921Z" fill="white" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="clip0_271_262">
+                                            <rect width="16.8" height="16.8" fill="white" transform="translate(3 3)" />
+                                        </clipPath>
+                                    </defs>
+                                </svg>
+                            </div>
                         </a>
                     </li>
                 </ul>
@@ -46,15 +53,7 @@
                     <li><a href="#">Contact Us</a></li>
                 </ul>
             </div>
-            <div class="col-lg-3 col-sm-6 mb-lg-0 mb-4 list-item">
-                <div class="title">Featured Games</div>
-                <ul>
-                    <li><a href="#">Golden Wheel</a></li>
-                    <li><a href="#">Golden Dragon</a></li>
-                    <li><a href="#">Fire Kirin</a></li>
-                    <li><a href="#">Kraken</a></li>
-                </ul>
-            </div>
+
             <div class="col-lg-3 col-sm-6 mb-lg-0 mb-4 list-item">
                 <div class="title">Contacts</div>
                 <ul>
@@ -85,13 +84,19 @@
 
                 </ul>
             </div>
+
+            <div class="col-lg-3 col-sm-6 mb-lg-0 mb-4 list-item">
+                <div class="title">Download Game</div>
+                <ul>
+                    <li><a href="#"><img src="assets/img/white-appstore.png" alt=""></a></li>
+                    <li><a href="#"><img src="assets/img/white-playstore.png" alt=""></a></li>
+                </ul>
+            </div>
         </div>
         <div class="row">
             <hr class="mb-3">
-            <div class="col-12 bottom-footer d-sm-flex">
-
-                <p>© 2024, icafegames.com</p>
-                <p>Website bought into life by: <a href="#">Makura Creations</a></p>
+            <div class="col-12 bottom-footer text-center mt-40">
+                <p>©2024, Web Orion Stars. All Rights Reserved.</p>
             </div>
         </div>
     </div>
