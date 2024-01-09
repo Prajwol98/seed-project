@@ -1,4 +1,4 @@
-<!-- <footer class="main-footer py-60 main-content">
+<footer class="main-footer py-60 main-content">
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-sm-6 mb-lg-0 mb-4 about">
@@ -95,7 +95,7 @@
             </div>
         </div>
     </div>
-</footer> -->
+</footer>
 
 <a href="javascript:void(0)" id="return-to-top">
     <svg viewBox="0 0 24 24" width="24" height="24" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
