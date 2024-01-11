@@ -20,6 +20,14 @@
       $("#return-to-top").hide(200);
     }
   });
+  //responsive navbar
+  $(".close-btn").click(function () {
+    $(".nav-items .wrapper").removeClass("show");
+  });
+  $(".ham-menu").click(function () {
+    $(".nav-items .wrapper").addClass("show");
+  });
+
   $("#return-to-top").click(function () {
     $("body,html").animate({ scrollTop: 0 }, 1000);
   });

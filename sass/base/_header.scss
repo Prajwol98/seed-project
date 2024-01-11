@@ -1,0 +1,105 @@
+header.main-header {
+    padding: .75rem 0;
+    background-color: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 111;
+
+    .nav-items {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        ul {
+            display: flex;
+            list-style: none;
+            margin-bottom: 0;
+
+            li {
+                a {
+                    font-size: 1.125rem;
+                    font-family: $font-primary;
+                    display: block;
+                    padding: 0 1rem;
+                    color: white;
+                    cursor: pointer;
+
+                    &:hover {
+                        color: $primary;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width:767.98px) {
+        .btn-wrapper {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+
+    }
+}
+
+.ham-menu,
+.close-btn {
+    display: none;
+}
+
+@media (max-width:991px) {
+    .ham-menu {
+        display: block;
+    }
+
+    header.main-header {
+        .logo-wrapper {
+            order: 1;
+        }
+
+        .nav-items {
+            order: 3;
+        }
+
+        .btn-wrapper {
+            order: 2;
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-items {
+            .close-btn {
+                display: block;
+                position: absolute;
+                top: 1rem;
+                right: 1rem;
+            }
+
+            .wrapper {
+                position: fixed;
+                top: 0;
+                height: 100%;
+                left: 0;
+                width: 100%;
+                flex-direction: column;
+                background-color: #000;
+                z-index: 111;
+                padding-top: 5rem;
+                transform: translateX(-100%);
+                @include transition();
+
+                li {
+                    padding: 1rem;
+                    border-bottom: 1px solid rgba($color: #fff, $alpha: 0.2);
+                }
+
+                &.show {
+                    transform: unset;
+                }
+            }
+        }
+    }
+}

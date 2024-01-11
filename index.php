@@ -22,4 +22,13 @@
         </div>
     </div>
 </section>
+
+<section class="container">
+    <div class="row">
+        <div class="col-12">
+            <a href="#" class="btn primary">Download Game</a>
+            <a href="#" class="btn white">Download Game</a>
+        </div>
+    </div>
+</section>
 <?php include("partials/footer.php"); ?>
