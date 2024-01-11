@@ -1,3 +1,43 @@
+<footer class="main-footer bg-dark">
+    <div class="container middle-footer py-40">
+        <div class="row">
+            <div class="col-md-5 about">
+                <img src="assets/img/logo.png" alt="">
+                <div class="text-content mt-4">
+                    <p>Where Gaming Dreams Take Flight, and Fun Knows No Bounds!</p>
+                </div>
+            </div>
+            <div class="col-md-2 links-wrapper">
+                <div class="title">Navigation</div>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Other Games</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3 links-wrapper">
+                <div class="title">Most Popular Games</div>
+                <ul>
+                    <li><a href="#">Fire Kraken</a></li>
+                    <li><a href="#">Fire Kirin</a></li>
+                    <li><a href="#">Zombies 777</a></li>
+                    <li><a href="#">Astro Juwa</a></li>
+                </ul>
+            </div>
+            <div class="col-md-2 links-wrapper">
+                <div class="title">Get the app</div>
+                <ul>
+                    <li><a href="#"><img src="assets/img/appstore.png" alt=""></a></li>
+                    <li><a href="#"><img src="assets/img/playstore.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="text-center footer-content linear-bg text-white py-2 fw-bold">
+        ©2024, Juwa Online. All rights Reserved.
+    </div>
+</footer>
 <a href="javascript:void(0)" id="return-to-top">
     <svg viewBox="0 0 24 24" width="24" height="24" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1">
         <polyline points="18 15 12 9 6 15"></polyline>

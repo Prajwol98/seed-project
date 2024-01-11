@@ -1,0 +1,36 @@
+footer.main-footer {
+    .about {
+        .text-content {
+            p {
+                font-size: 1.25rem;
+                font-family: $font-primary;
+            }
+        }
+    }
+
+    .links-wrapper {
+        .title {
+            font-size: 1.25rem;
+            font-family: $font-primary;
+            color: white;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style: none;
+
+            li {
+                margin-bottom: .5rem;
+
+                a {
+                    color: $white;
+
+                    &:hover {
+                        text-decoration: underline;
+                        color: rgba($color: #fff, $alpha: 0.8);
+                    }
+                }
+            }
+        }
+    }
+}
