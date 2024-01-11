@@ -40,7 +40,6 @@ body {
   font-family: $font-secondary;
   overflow-x: hidden;
   position: relative;
-  background-color: #0D040E;
 
   &.sidebar-open {
     overflow-y: hidden;
@@ -83,8 +82,7 @@ h5,
 h6 {
   @include transition();
   font-family: $font-primary;
-  color: $white;
-  font-weight: 700;
+  color: $title-color;
 }
 
 //2: Headings End
