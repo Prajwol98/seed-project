@@ -10,6 +10,104 @@
                     games!!</p>
             </div>
         </div>
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="game-card-wrapper">
+                    <a href="#" class="game-card">
+                        <div class="img-wrapper">
+                            <img src="https://picsum.photos/500/500" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Mega Money Machine</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="game-card-wrapper">
+                    <a href="#" class="game-card">
+                        <div class="img-wrapper">
+                            <img src="https://picsum.photos/500/500" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Mega Money Machine</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="game-card-wrapper">
+                    <a href="#" class="game-card">
+                        <div class="img-wrapper">
+                            <img src="https://picsum.photos/500/500" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Mega Money Machine</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="game-card-wrapper">
+                    <a href="#" class="game-card">
+                        <div class="img-wrapper">
+                            <img src="https://picsum.photos/500/500" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Mega Money Machine</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="game-card-wrapper">
+                    <a href="#" class="game-card">
+                        <div class="img-wrapper">
+                            <img src="https://picsum.photos/500/500" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Mega Money Machine</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="game-card-wrapper">
+                    <a href="#" class="game-card">
+                        <div class="img-wrapper">
+                            <img src="https://picsum.photos/500/500" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Mega Money Machine</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="game-card-wrapper">
+                    <a href="#" class="game-card">
+                        <div class="img-wrapper">
+                            <img src="https://picsum.photos/500/500" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Mega Money Machine</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="game-card-wrapper">
+                    <a href="#" class="game-card">
+                        <div class="img-wrapper">
+                            <img src="https://picsum.photos/500/500" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Mega Money Machine</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </section>
 
