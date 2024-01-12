@@ -23,9 +23,23 @@ header.main-header {
           padding: 0 1rem;
           color: white;
           cursor: pointer;
+          position: relative;
 
           &:hover {
             color: $primary;
+            &::before {
+              content: "";
+              background-image: url("data:image/svg+xml,%3Csvg width='8' height='8' viewBox='0 0 8 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.464355' y='4' width='5' height='5' transform='rotate(-45 0.464355 4)' fill='%23F50103'/%3E%3C/svg%3E%0A");
+              background-repeat: no-repeat;
+              background-size: contain;
+              height: 0.5rem;
+              width: 0.5rem;
+              display: block;
+              position: absolute;
+              bottom: -10px;
+              left: 50%;
+              transform: translate(-50%, -50%);
+            }
           }
         }
       }

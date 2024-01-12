@@ -27,6 +27,7 @@
 </section>
 
 <section class="py-80 home other-games-section">
+    <img src="assets/img/background4.png" class="backgroud-4" alt="background4">
     <div class="container">
         <div class="row">
             <div class="col-xl-8 mx-auto section-heading text-center mb-60">
@@ -367,11 +368,11 @@
     </div>
 </section>
 
-<section class="d-flex get-in-touch-section">
+<section class="d-flex pb-80 get-in-touch-section">
     <div class="w-50 left-form-wrapper">
         <div class="form-wrapper">
             <div class="section-heading">
-                <div class="title">Faqs</div>
+                <div class="title ps-0">Get in Touch</div>
                 <h2>Explore Our Comprehensive Frequently Asked Questions Section</h2>
                 <p>Unlock a world of exclusive bonuses, rewards, and promotions through our dedicated
                     rewards
@@ -450,7 +451,60 @@
                 </ul>
             </div>
             <form action="">
-
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="mb-4">
+                            <label for="input" class="form-label">First Name</label>
+                            <input type="text" class="form-control" id="input" placeholder="John">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-4">
+                            <label for="input" class="form-label">Last Name</label>
+                            <input type="text" class="form-control" id="input" placeholder="Doe">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-4">
+                            <label for="input" class="form-label">Email Address</label>
+                            <input type="text" class="form-control" id="input" placeholder="example@gmail.com">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-4">
+                            <label for="input" class="form-label">Phone Number</label>
+                            <input type="text" class="form-control" id="input" placeholder="(+911) 9XX-XXX-XXXX">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-4">
+                            <label for="input" class="form-label">Facebook Link</label>
+                            <input type="text" class="form-control" id="input" placeholder="www.facebook.com/john414">
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="mb-4">
+                            <label for="input" class="form-label">Subject</label>
+                            <select name="" class="form-select" placeholder="- - Select the Subject - -">
+                                <option value="- - Select the Subject - -"> - - Select the Subject - -</option>
+                                <option value="Game 1 Feedback">Game 1 Feedback</option>
+                                <option value="Game 2 Feedback">Game 2 Feedback</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-4">
+                            <label for="input" class="form-label">Leave us message</label>
+                            <textarea name="" class="form-control" id="" cols="" rows="1"
+                                placeholder="Enter your message here"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mb-4">
+                            <a href="#" class="btn primary w-100">Submit</a>
+                        </div>
+                    </div>
+                </div>
             </form>
         </div>
     </div>

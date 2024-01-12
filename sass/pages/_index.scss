@@ -79,6 +79,11 @@
   }
 }
 
+//other-games-section
+.other-games-section {
+  position: relative;
+}
+
 //play-thrive-section
 .play-thrive-section {
   position: relative;
@@ -91,10 +96,37 @@
     left: 0;
     right: 0;
     object-fit: cover;
+    @media (max-width: 1137px) {
+      bottom: -32%;
+    }
+    @media (max-width: 991px) {
+      bottom: -20%;
+    }
+    @media (max-width: 834px) {
+      bottom: -18%;
+    }
+    @media (max-width: 642px) {
+      bottom: -14%;
+    }
+    @media (max-width: 530px) {
+      bottom: -12%;
+    }
+    @media (max-width: 447px) {
+      bottom: -10%;
+    }
+    @media (max-width: 388px) {
+      bottom: -8%;
+    }
+    @media (max-width: 335px) {
+      bottom: -5%;
+    }
   }
   .inner-box-wrapper {
     display: flex;
     align-items: center;
+    @media (max-width: 991px) {
+      margin-bottom: 1.875rem;
+    }
     span {
       color: #e2e2e2;
       font-family: $font-primary;

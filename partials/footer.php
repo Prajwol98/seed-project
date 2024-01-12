@@ -1,8 +1,30 @@
+<div class="footer-attached-art">
+    <img src="assets/img/background2.svg" class="bottom-background" alt="background2_art">
+</div>
+
 <footer class="main-footer">
+    <div class="py-40 footer-newsletter-wrapper">
+        <div class="container">
+            <div class="align-items-center row">
+                <div class="col-lg-6">
+                    <h3>Join our Newsletter to keep upto date with us!</h3>
+                </div>
+                <div class="col-lg-6">
+                    <form action="/">
+                        <div class="input-wrapper">
+                            <input type="email" class="form-control" id="newsletter"
+                                placeholder="Enter your Email Address">
+                            <button type="submit" class="btn btn-primary">Subscribe</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container middle-footer py-40">
         <div class="row">
             <div class="col-md-5 about">
-                <img src="assets/img/logo.png" alt="">
+                <img src="assets/img/juwa-logo.svg" alt="">
                 <div class="text-content mt-4">
                     <p>Where Gaming Dreams Take Flight, and Fun Knows No Bounds!</p>
                 </div>

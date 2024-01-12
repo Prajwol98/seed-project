@@ -1,0 +1,26 @@
+//contect-top-section
+.contect-top-section {
+  position: relative;
+  overflow: hidden;
+  .left-clip-1 {
+    position: absolute;
+    top: -12%;
+    left: 0;
+    width: 11.2546rem;
+    height: 7.1601rem;
+    @media (max-width: 683px) {
+      display: none;
+    }
+  }
+  .left-clip-2 {
+    position: absolute;
+    text-align: end;
+    top: -20%;
+    right: 0;
+    width: 11.2546rem;
+    height: 7.1601rem;
+    @media (max-width: 683px) {
+      display: none;
+    }
+  }
+}
