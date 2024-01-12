@@ -56,3 +56,37 @@
     position: absolute;
   }
 }
+
+//get-in-touch-section
+.get-in-touch-section {
+  .section-heading {
+    margin-bottom: 2.0625rem;
+    p {
+      color: #545454;
+      font-family: $font-secondary;
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 22.4px;
+    }
+  }
+  .quick-link-wrapper {
+    ul {
+      li {
+        margin-bottom: 1.0625rem;
+        &:last-child {
+          margin-bottom: 0;
+        }
+        a {
+          color: $primary;
+          font-family: $font-secondary;
+          font-size: 1rem;
+          font-weight: 500;
+          line-height: 22.4px;
+          svg{
+            margin-right: 0.5rem;
+          }
+        }
+      }
+    }
+  }
+}

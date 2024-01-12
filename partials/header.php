@@ -16,10 +16,10 @@ $page = end($link_array);
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Rowdies:wght@400;700&display=swap"
         rel="stylesheet">
-    <link rel="shortcut icon" href="assets/img/favicon.svg">
+    <link rel="shortcut icon" href="assets/img/juwa-logo.svg">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Game 5</title>
+    <title>Juwa Online</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,13 +42,12 @@ $page = end($link_array);
 </head>
 
 <body>
-
     <header class="main-header">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-2 col-3 logo-wrapper">
                     <a href="index.php">
-                        <img src="assets/img/logo.png" alt="">
+                        <img src="assets/img/juwa-logo.svg" alt="logo">
                     </a>
                 </div>
                 <div class="col-lg-7 col-md-8 col-2 nav-items">

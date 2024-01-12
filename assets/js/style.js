@@ -2,7 +2,7 @@
   $(".pop-up").magnificPopup({
     type: "iframe",
   });
-  
+
   // returntotop
   $(window).scroll(function () {
     if ($(this).scrollTop() >= 200) {
@@ -23,6 +23,7 @@
   $("#return-to-top").click(function () {
     $("body,html").animate({ scrollTop: 0 }, 1000);
   });
+
   //responsive navbar
   $("#ham-menu").click(function () {
     $(".sidebar").toggleClass("show");

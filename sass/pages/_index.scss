@@ -132,6 +132,103 @@
 
 //faqs-section
 .faqs-section {
-  .section-heading .title {
+  position: relative;
+  .section-heading {
+    a {
+      color: $primary;
+      font-family: $font-secondary;
+      font-size: 1.125rem;
+      font-weight: 700;
+      line-height: 25.2px;
+      text-decoration-line: underline;
+      svg {
+        transition: 0.3s ease-in-out;
+      }
+      &:hover {
+        svg {
+          transform: translateX(10px);
+        }
+      }
+    }
+  }
+  .bakground3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+  .accordion-item {
+    border: 0;
+    background-color: transparent;
+    border-bottom: 1px solid #ededed;
+  }
+  .accordion-button:not(.collapsed) {
+    color: #000;
+    background: none;
+    border-bottom: 0 !important;
+    box-shadow: unset;
+    &::after {
+      background-image: url("data:image/svg+xml,%3Csvg width='20' height='21' viewBox='0 0 20 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 13.7437L10 7.74365L16 13.7437' stroke='black' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+    }
+  }
+  .accordion-button {
+    color: #363636;
+    font-family: $font-primary;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 26px;
+    padding-left: 0;
+    background: transparent;
+    &::after {
+      background-image: url("data:image/svg+xml,%3Csvg width='20' height='21' viewBox='0 0 20 21' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 7.74365L10 13.7437L16 7.74365' stroke='black' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E%0A");
+    }
+  }
+  .accordion-body {
+    text-align: left;
+    color: #545454;
+    font-family: $font-secondary;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 22.4px;
+    p {
+      color: #545454;
+      font-family: $font-secondary;
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 22.4px;
+    }
+  }
+}
+
+//usps-wrapper
+.usps-wrapper {
+  .inner-box-wrapper {
+    .icon-wrapper {
+      margin-bottom: 1.5rem;
+    }
+    .bottom-content {
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        color: #363636;
+        font-family: $font-primary;
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 26px;
+        margin-bottom: 0.5rem;
+      }
+      p {
+        color: #545454;
+        font-family: $font-secondary;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 22.4px;
+      }
+    }
   }
 }
