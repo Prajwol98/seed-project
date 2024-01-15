@@ -83,7 +83,7 @@
     </div>
 </section>
 
-<section class="py-80 home other-games-section">
+<section class="py-80 home other-games-section" id="games">
     <img src="assets/img/background4.png" class="backgroud-4" alt="background4">
     <img src="assets/img/home-other-clip-2.svg" class="home-other-clip-2" alt="home-other-clip-2">
     <div class="container">

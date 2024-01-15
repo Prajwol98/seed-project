@@ -29,6 +29,22 @@
     margin-left: 4.5rem;
     z-index: 1;
     pointer-events: none;
+    @media (max-width: 922px) {
+      position: relative;
+      width: 100%;
+      top: unset;
+      padding-top: 8%;
+      width: 100%;
+      padding-left: 4.5rem;
+      margin-left: 0;
+      z-index: 1;
+      pointer-events: none;
+      background: #120909;
+      padding-bottom: 8%;
+    }
+    @media (max-width: 425px) {
+      padding-left: 2.5rem;
+    }
     h1,
     h2,
     h3,
@@ -54,6 +70,11 @@
     }
     .button-wrapper {
       pointer-events: fill;
+      @media (max-width: 713px) {
+        .btn{
+          margin-bottom: 0.75rem;
+        }
+      }
     }
   }
   .pop-wrapper {
@@ -83,6 +104,10 @@
   position: relative;
   height: calc(100vh - 20vh);
   overflow: hidden;
+  @media (max-width: 996px) {
+    height: 100%;
+    overflow: unset;
+  }
   .banner-background {
     height: 100%;
     width: 100%;
@@ -93,6 +118,15 @@
 //other-games-section
 .other-games-section {
   position: relative;
+  @media (max-width: 922px) {
+    margin-top: 29rem;
+  }
+  @media (max-width: 713px) {
+    margin-top: 32rem;
+  }
+  @media (max-width: 455px) {
+    margin-top: 35rem;
+  }
 }
 
 //play-thrive-section
