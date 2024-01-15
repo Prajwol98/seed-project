@@ -5,6 +5,20 @@
     </div>
     <div class="hero-banner-section">
         <img src="assets/img/background1.svg" class="banner-background" alt="banner_background">
+        <a href="#games" class="scroll-down mt-40 d-block">
+            <div class="img-div" bis_skin_checked="1">
+                <img decoding="async" src="assets/img/scroll-image.png" alt="scroll_text">
+                <div class="btn-wrap" bis_skin_checked="1">
+                    <svg width="18" height="51" viewBox="0 0 18 51" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="0.5" y="0.5" width="17" height="31" rx="8.5" stroke="white" />
+                        <rect x="8" y="18" width="2" height="8" rx="1" fill="white" />
+                        <path d="M5 36L9.5 40L14 36" stroke="white" stroke-linecap="round" />
+                        <path opacity="0.5" d="M5 41L9.5 45L14 41" stroke="white" stroke-linecap="round" />
+                        <path opacity="0.2" d="M5 46L9.5 50L14 46" stroke="white" stroke-linecap="round" />
+                    </svg>
+                </div>
+            </div>
+        </a>
         <div class="video-wrapper-section">
             <div class="pop-wrapper">
                 <a id="playButton" href="https://www.youtube.com/watch?v=pBFQdxA-apI" class="pop-up">
@@ -19,8 +33,51 @@
             </div>
             <div class="inner-content-wrapper-section">
                 <h2>JUWA</h2>
-                <p>Your digital haven for entertainment, featuring a diverse array of games and immersive experiences
-                    tailored for every kind of player.</p>
+                <p>Your digital haven for entertainment, featuring a diverse<br> array of games and immersive
+                    experiences
+                    tailored for<br> every kind of player.</p>
+                <div class="button-wrapper">
+                    <a href="#" class="btn primary me-3">Play Now</a>
+                    <a href="#" class="btn white me-3">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_506_941)">
+                                <path
+                                    d="M2.7764 6.97827C2.4318 6.97827 2.13942 7.09844 1.89908 7.33878C1.65874 7.57912 1.53853 7.86753 1.53853 8.20413V13.3724C1.53853 13.7174 1.6587 14.0095 1.89908 14.2499C2.13942 14.4902 2.4318 14.6104 2.7764 14.6104C3.12074 14.6104 3.41135 14.4903 3.64797 14.2499C3.88411 14.0096 4.00251 13.7174 4.00251 13.3724V8.20413C4.00251 7.86749 3.88234 7.57912 3.64196 7.33878C3.40159 7.09844 3.113 6.97827 2.7764 6.97827Z"
+                                    fill="#F50103" />
+                                <path
+                                    d="M12.7284 2.33878L13.5818 0.764526C13.6378 0.660304 13.6179 0.580383 13.5219 0.524185C13.4176 0.475726 13.3375 0.500281 13.2815 0.596114L12.4162 2.18296C11.6548 1.84631 10.8495 1.67768 10.0003 1.67768C9.15085 1.67768 8.34546 1.84635 7.58433 2.18296L6.71898 0.596114C6.66275 0.500281 6.58265 0.475943 6.47864 0.524185C6.38237 0.580636 6.36245 0.660304 6.41868 0.764526L7.2721 2.33878C6.40675 2.78008 5.71755 3.39468 5.20476 4.1839C4.69196 4.97356 4.43546 5.83649 4.43546 6.7742H15.553C15.553 5.83671 15.2964 4.97374 14.7837 4.1839C14.2708 3.39468 13.5856 2.78008 12.7284 2.33878ZM7.79459 4.62857C7.7023 4.72107 7.59207 4.76711 7.46394 4.76711C7.33557 4.76711 7.22758 4.72107 7.13949 4.62857C7.05139 4.5365 7.00735 4.4267 7.00735 4.29814C7.00735 4.17002 7.05139 4.06001 7.13949 3.96772C7.22758 3.87565 7.33582 3.82961 7.46394 3.82961C7.59207 3.82961 7.7023 3.87565 7.79459 3.96772C7.88666 4.06023 7.93291 4.17002 7.93291 4.29814C7.93266 4.42649 7.88644 4.5365 7.79459 4.62857ZM12.8605 4.62857C12.7723 4.72107 12.664 4.76711 12.5361 4.76711C12.4077 4.76711 12.2975 4.72107 12.2054 4.62857C12.1132 4.5365 12.0671 4.4267 12.0671 4.29814C12.0671 4.17002 12.1132 4.06001 12.2054 3.96772C12.2975 3.87565 12.4077 3.82961 12.5361 3.82961C12.6643 3.82961 12.7722 3.87565 12.8605 3.96772C12.9487 4.06023 12.9927 4.17002 12.9927 4.29814C12.9927 4.42649 12.9487 4.5365 12.8605 4.62857Z"
+                                    fill="#F50103" />
+                                <path
+                                    d="M4.48318 15.2114C4.48318 15.5804 4.61131 15.8927 4.8676 16.149C5.12411 16.4052 5.43641 16.5334 5.8051 16.5334H6.69457L6.70675 19.262C6.70675 19.6066 6.82692 19.8992 7.06726 20.1396C7.30761 20.3799 7.59622 20.5001 7.93261 20.5001C8.277 20.5001 8.56956 20.3799 8.80993 20.1396C9.05031 19.8992 9.17048 19.6066 9.17048 19.262V16.5336H10.8291V19.262C10.8291 19.6066 10.9492 19.8992 11.1896 20.1396C11.43 20.3799 11.7223 20.5001 12.0669 20.5001C12.4113 20.5001 12.7038 20.3799 12.9442 20.1396C13.1846 19.8992 13.3047 19.6066 13.3047 19.262V16.5336H14.2062C14.5667 16.5336 14.875 16.4055 15.1318 16.1492C15.388 15.8929 15.5162 15.5806 15.5162 15.2117V7.20654H4.48318V15.2114Z"
+                                    fill="#F50103" />
+                                <path
+                                    d="M17.2236 6.97827C16.887 6.97827 16.5986 7.09667 16.3583 7.33282C16.1179 7.5694 15.9977 7.86 15.9977 8.20413V13.3724C15.9977 13.7174 16.1179 14.0095 16.3583 14.2499C16.5986 14.4903 16.8872 14.6104 17.2236 14.6104C17.568 14.6104 17.8606 14.4903 18.101 14.2499C18.3413 14.0095 18.4615 13.7174 18.4615 13.3724V8.20413C18.4615 7.85997 18.3413 7.5694 18.101 7.33282C17.8606 7.09667 17.568 6.97827 17.2236 6.97827Z"
+                                    fill="#F50103" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_506_941">
+                                    <rect width="20" height="20" fill="white" transform="translate(0 0.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg> Download from Playstore</a>
+                    <a href="#" class="btn white">
+                        <svg width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_506_950)">
+                                <path
+                                    d="M7.3125 20.5C5.6875 20.5 4.5625 19.0625 3.75 17.8125C1.6875 14.625 1.25 10.625 2.75 8.3125C3.75 6.75 5.375 5.8125 6.9375 5.8125C7.75 5.8125 8.4375 6.0625 9 6.25C9.4375 6.4375 9.875 6.5625 10.3125 6.5625C10.6875 6.5625 11 6.4375 11.4375 6.25C12 6.0625 12.6875 5.8125 13.625 5.8125C15 5.8125 16.4375 6.5625 17.4375 7.8125C17.5625 7.9375 17.625 8.125 17.5625 8.3125C17.5 8.5 17.4375 8.625 17.25 8.75C16.125 9.375 15.5 10.5 15.625 11.75C15.6875 13.0625 16.5 14.125 17.6875 14.5625C17.875 14.625 18 14.75 18.0625 14.9375C18.125 15.125 18.125 15.25 18.0625 15.4375C17.625 16.375 17.4375 16.8125 16.875 17.625C15.9375 19 14.8125 20.4375 13.3125 20.4375C12.625 20.4375 12.1875 20.25 11.8125 20.0625C11.4375 19.875 11.0625 19.6875 10.3125 19.6875C9.625 19.6875 9.25 19.875 8.8125 20.0625C8.4375 20.3125 8 20.5 7.3125 20.5Z"
+                                    fill="#F50103" />
+                                <path
+                                    d="M9.8125 5.9375C9.75 5.9375 9.75 5.9375 9.6875 5.9375C9.375 5.9375 9.125 5.6875 9.0625 5.4375C8.875 4.375 9.25 3.125 10.0625 2.125C10.8125 1.1875 12.0625 0.5625 13.1875 0.4375C13.5 0.4375 13.8125 0.625 13.875 1C14.0625 2.125 13.6875 3.3125 12.875 4.3125C12.1875 5.3125 10.9375 5.9375 9.8125 5.9375Z"
+                                    fill="#F50103" />
+                            </g>
+                            <defs>
+                                <clipPath id="clip0_506_950">
+                                    <rect width="20" height="20" fill="white" transform="translate(0 0.5)" />
+                                </clipPath>
+                            </defs>
+                        </svg>
+                        Download from Appstore</a>
+                </div>
             </div>
         </div>
     </div>
@@ -28,27 +85,113 @@
 
 <section class="py-80 home other-games-section">
     <img src="assets/img/background4.png" class="backgroud-4" alt="background4">
+    <img src="assets/img/home-other-clip-2.svg" class="home-other-clip-2" alt="home-other-clip-2">
     <div class="container">
         <div class="row">
             <div class="col-xl-8 mx-auto section-heading text-center mb-60">
                 <div class="title">Our Other Games</div>
                 <h2>Explore our gaming galaxy and discover a universe of endless excitement with our other captivating
                     games!!</h2>
-                <p>Explore our gaming galaxy and discover a universe of endless excitement with our other captivating
-                    games!!</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-3 game-card-wrapper">
-                <a href="#" class="game-card">
-                    <div class="img-wrapper">
-                        <img src="https://picsum.photos/500/500" alt="">
-                    </div>
-                    <div class="text-content">
-                        <h4>Mega Money Machine</h4>
-                    </div>
-                </a>
+            <div class="col-md-3">
+                <div class="game-card-wrapper">
+                    <a href="#" class="game-card">
+                        <div class="img-wrapper">
+                            <img src="https://picsum.photos/500/500" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Mega Money Machine</h4>
+                        </div>
+                    </a>
+                </div>
             </div>
+            <div class="col-md-3">
+                <div class="game-card-wrapper">
+                    <a href="#" class="game-card">
+                        <div class="img-wrapper">
+                            <img src="https://picsum.photos/500/500" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Mega Money Machine</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="game-card-wrapper">
+                    <a href="#" class="game-card">
+                        <div class="img-wrapper">
+                            <img src="https://picsum.photos/500/500" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Mega Money Machine</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="game-card-wrapper">
+                    <a href="#" class="game-card">
+                        <div class="img-wrapper">
+                            <img src="https://picsum.photos/500/500" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Mega Money Machine</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="game-card-wrapper">
+                    <a href="#" class="game-card">
+                        <div class="img-wrapper">
+                            <img src="https://picsum.photos/500/500" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Mega Money Machine</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="game-card-wrapper">
+                    <a href="#" class="game-card">
+                        <div class="img-wrapper">
+                            <img src="https://picsum.photos/500/500" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Mega Money Machine</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="game-card-wrapper">
+                    <a href="#" class="game-card">
+                        <div class="img-wrapper">
+                            <img src="https://picsum.photos/500/500" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Mega Money Machine</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="game-card-wrapper">
+                    <a href="#" class="game-card">
+                        <div class="img-wrapper">
+                            <img src="https://picsum.photos/500/500" alt="">
+                        </div>
+                        <div class="text-content">
+                            <h4>Mega Money Machine</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a href="listings.php" class="btn m-auto primary" style="width: fit-content;">View All</a>
         </div>
     </div>
 </section>
@@ -61,8 +204,6 @@
                 <div class="title">Play thrive & Enjoy</div>
                 <h2>Explore our gaming galaxy and discover a universe of endless excitement with our other captivating
                     games!!</h2>
-                <p>Indulge in superior gaming and dedicated support, ensuring an exceptional experience tailored just
-                    for you</p>
             </div>
         </div>
         <div class="row mb-80">
@@ -186,6 +327,8 @@
 </section>
 
 <section class="py-80 home usps-wrapper">
+    <img src="assets/img/ups-clip-1.svg" class="ups-clip-1" alt="ups-clip-1">
+    <img src="assets/img/ups-clip-2.svg" class="ups-clip-2" alt="ups-clip-2">
     <div class="container">
         <div class="row">
             <div class="col-xl-8 mx-auto section-heading text-center mb-60">
@@ -370,6 +513,7 @@
 </section>
 
 <section class="d-flex pb-80 get-in-touch-section">
+    <img src="assets/img/fet-in-touch-clip.svg" class="get_touched-clip-1" alt="get_touched-clip-1">
     <div class="w-50 left-form-wrapper">
         <div class="form-wrapper">
             <div class="section-heading">

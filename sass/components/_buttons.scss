@@ -1,30 +1,32 @@
 .btn {
-    font-family: $font-primary;
-    font-size: 1.125rem;
-    padding: .5rem 1.5rem;
-    border-radius: 68px;
-    @include transition();
+  font-family: $font-primary;
+  font-size: 1.125rem;
+  padding: 0.5rem 1.5rem;
+  border-radius: 68px;
+  @include transition();
 
-    &.primary {
-        color: white;
-        border: 2px solid #FEC437;
-        background: linear-gradient(85deg, #F50103 22.98%, #FEC437 100%);
+  &.primary {
+    color: white;
+    border: 2px solid #fec437;
+    background: linear-gradient(85deg, #f50103 22.98%, #fec437 100%);
 
-        &:hover {
-            background: $primary;
-        }
+    &:hover {
+      background: $primary;
     }
+  }
 
-    &.white {
-        color: $primary;
-        border: 2px solid #FEC437;
-
-        background: white;
-
-        &:hover {
-
-            color: $white;
-            background: linear-gradient(85deg, #F50103 22.98%, #FEC437 100%);
+  &.white {
+    color: $primary;
+    border: 2px solid #fec437;
+    background: white;
+    &:hover {
+      color: $white;
+      background: linear-gradient(85deg, #f50103 22.98%, #fec437 100%);
+      svg {
+        path {
+          fill: $white;
         }
+      }
     }
+  }
 }

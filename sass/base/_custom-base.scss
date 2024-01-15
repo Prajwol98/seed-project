@@ -4,6 +4,10 @@
   left: 0;
   width: 100%;
   z-index: -1;
+  pointer-events: none;
+  @media (max-width: 683px) {
+    display: none;
+  }
 }
 
 .backgroud-4 {
@@ -12,6 +16,144 @@
   left: 0;
   width: 100%;
   z-index: -1;
+  pointer-events: none;
+  @media (max-width: 683px) {
+    display: none;
+  }
+}
+
+.listing-clip-1 {
+  position: absolute;
+  left: -1%;
+  top: -4%;
+  pointer-events: none;
+  @media (max-width: 683px) {
+    display: none;
+  }
+}
+
+.listing-clip-2 {
+  position: absolute;
+  right: -1%;
+  top: -4%;
+  pointer-events: none;
+  @media (max-width: 683px) {
+    display: none;
+  }
+}
+
+.listing-clip-3 {
+  position: absolute;
+  left: -8%;
+  top: 50%;
+  pointer-events: none;
+  @media (max-width: 683px) {
+    display: none;
+  }
+}
+
+.detail-clip-1 {
+  position: absolute;
+  left: -8%;
+  top: 47%;
+  pointer-events: none;
+  height: unset !important;
+  width: unset !important;
+  object-fit: unset !important;
+  @media (max-width: 683px) {
+    display: none;
+  }
+}
+
+.detail-clip-2 {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  pointer-events: none;
+  height: unset !important;
+  width: unset !important;
+  object-fit: unset !important;
+  @media (max-width: 683px) {
+    display: none;
+  }
+}
+
+.video-section-clip-1 {
+  position: absolute;
+  left: -1%;
+  top: 60%;
+  pointer-events: none;
+  height: unset !important;
+  width: unset !important;
+  object-fit: unset !important;
+  @media (max-width: 683px) {
+    display: none;
+  }
+}
+
+.video-section-clip-2 {
+  position: absolute;
+  right: 0;
+  top: 40%;
+  pointer-events: none;
+  height: unset !important;
+  width: unset !important;
+  object-fit: unset !important;
+  @media (max-width: 683px) {
+    display: none;
+  }
+}
+
+.home-other-clip-2 {
+  position: absolute;
+  right: -3%;
+  top: -10%;
+  pointer-events: none;
+  height: unset !important;
+  width: unset !important;
+  object-fit: unset !important;
+  @media (max-width: 683px) {
+    display: none;
+  }
+}
+
+.ups-clip-1 {
+  position: absolute;
+  left: 0;
+  top: -10%;
+  pointer-events: none;
+  height: unset !important;
+  width: unset !important;
+  object-fit: unset !important;
+  @media (max-width: 683px) {
+    display: none;
+  }
+}
+
+.ups-clip-2 {
+  position: absolute;
+  right: 0;
+  top: -10%;
+  pointer-events: none;
+  height: unset !important;
+  width: unset !important;
+  object-fit: unset !important;
+  @media (max-width: 683px) {
+    display: none;
+  }
+}
+
+.get_touched-clip-1 {
+  position: absolute;
+  left: 0;
+  top: -8%;
+  pointer-events: none;
+  height: unset !important;
+  width: unset !important;
+  object-fit: unset !important;
+  @media (max-width: 683px) {
+    display: none;
+  }
 }
 
 .section-heading {
@@ -233,4 +375,9 @@
       line-height: 22.4px;
     }
   }
+}
+
+//game-listing-section
+.game-listing-section {
+  overflow: hidden;
 }

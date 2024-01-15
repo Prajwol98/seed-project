@@ -5,6 +5,12 @@ header.main-header {
   left: 0;
   width: 100%;
   z-index: 111;
+  transition: 0.3s ease-in-out;
+  &.sticky {
+    position: sticky;
+    top: 0;
+    transition: 0.3s ease-in-out;
+  }
   .nav-items {
     display: flex;
     align-items: center;

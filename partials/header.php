@@ -71,8 +71,7 @@ $page = end($link_array);
                             </svg>
                         </div>
                         <li><a href="index.php">Home</a></li>
-                        <li><a href="listings.php">Fire Kirin Games</a></li>
-                        <li><a data-bs-toggle="modal" data-bs-target="#menuModal">Other Games</a></li>
+                        <li><a href="listings.php">Other Games</a></li>
                         <li><a href="about.php">About</a></li>
                         <li><a href="contact.php">Contact</a></li>
                     </ul>

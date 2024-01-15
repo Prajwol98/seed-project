@@ -1,7 +1,10 @@
 <?php include("partials/header.php"); ?>
-<section class="py-80 game-listing section">
+<section class="py-80 game-listing-section">
     <img src="assets/img/background4.png" class="backgroud-4" alt="background4">
     <img src="assets/img/background5.png" class="backgroud-5" alt="background4">
+    <img src="assets/img/listing-clip-1.svg" class="listing-clip-1" alt="listing-clip-1">
+    <img src="assets/img/listing-clip-2.svg" class="listing-clip-2" alt="listing-clip-2">
+    <img src="assets/img/listing-clip-1.svg" class="listing-clip-3" alt="listing-clip-3">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 mx-auto mb-80 text-center title-type-2">
@@ -13,7 +16,7 @@
         <div class="row">
             <div class="col-lg-3">
                 <div class="game-card-wrapper">
-                    <a href="#" class="game-card">
+                    <a href="detail.php" class="game-card">
                         <div class="img-wrapper">
                             <img src="https://picsum.photos/500/500" alt="">
                         </div>
@@ -25,7 +28,7 @@
             </div>
             <div class="col-lg-3">
                 <div class="game-card-wrapper">
-                    <a href="#" class="game-card">
+                    <a href="detail.php" class="game-card">
                         <div class="img-wrapper">
                             <img src="https://picsum.photos/500/500" alt="">
                         </div>
@@ -37,7 +40,7 @@
             </div>
             <div class="col-lg-3">
                 <div class="game-card-wrapper">
-                    <a href="#" class="game-card">
+                    <a href="detail.php" class="game-card">
                         <div class="img-wrapper">
                             <img src="https://picsum.photos/500/500" alt="">
                         </div>
@@ -49,7 +52,7 @@
             </div>
             <div class="col-lg-3">
                 <div class="game-card-wrapper">
-                    <a href="#" class="game-card">
+                    <a href="detail.php" class="game-card">
                         <div class="img-wrapper">
                             <img src="https://picsum.photos/500/500" alt="">
                         </div>
@@ -61,7 +64,7 @@
             </div>
             <div class="col-lg-3">
                 <div class="game-card-wrapper">
-                    <a href="#" class="game-card">
+                    <a href="detail.php" class="game-card">
                         <div class="img-wrapper">
                             <img src="https://picsum.photos/500/500" alt="">
                         </div>
@@ -73,7 +76,7 @@
             </div>
             <div class="col-lg-3">
                 <div class="game-card-wrapper">
-                    <a href="#" class="game-card">
+                    <a href="detail.php" class="game-card">
                         <div class="img-wrapper">
                             <img src="https://picsum.photos/500/500" alt="">
                         </div>
@@ -85,7 +88,7 @@
             </div>
             <div class="col-lg-3">
                 <div class="game-card-wrapper">
-                    <a href="#" class="game-card">
+                    <a href="detail.php" class="game-card">
                         <div class="img-wrapper">
                             <img src="https://picsum.photos/500/500" alt="">
                         </div>
@@ -97,7 +100,7 @@
             </div>
             <div class="col-lg-3">
                 <div class="game-card-wrapper">
-                    <a href="#" class="game-card">
+                    <a href="detail.php" class="game-card">
                         <div class="img-wrapper">
                             <img src="https://picsum.photos/500/500" alt="">
                         </div>
@@ -111,7 +114,7 @@
     </div>
 </section>
 
-<section class="ready-to-play-cta">
+<section class="mb-80 ready-to-play-cta">
     <div class="container">
         <div class="row">
             <div class="inner-content-wrapper">
@@ -119,7 +122,7 @@
                 <div class="col-lg-6">
                     <h3>Ready to play and win?</h3>
                     <p>Explore the step-by-step guide to set up your account and start your gaming adventure.</p>
-                    <a href="#" class="btn primary">Download Game</a>
+                    <a href="#" class="btn primary">Contact Us</a>
                 </div>
             </div>
         </div>

@@ -1,0 +1,133 @@
+//about-top-section
+.about-top-section {
+  background-color: #130909;
+  & > div {
+    background-color: $white;
+    border-radius: 48px 48px 0px 0px;
+  }
+  .left-clip-2 {
+    position: absolute;
+    text-align: end;
+    top: 3%;
+    right: 0;
+    width: 11.2546rem;
+    height: 7.1601rem;
+    z-index: 9;
+    background-color: unset;
+    pointer-events: none;
+    @media (max-width: 683px) {
+      display: none;
+    }
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: $primary;
+    font-family: $font-primary;
+    font-size: 3rem;
+    font-weight: 400;
+    line-height: 62.4px;
+    margin: 0;
+  }
+  p {
+    color: #545454;
+    font-family: $font-secondary;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 22.4px;
+    margin-bottom: 2.25rem;
+  }
+  .banner-wrapper {
+    img {
+      height: 28.75rem;
+      width: 100%;
+      object-fit: cover;
+      border-radius: 24px;
+    }
+  }
+  .after-banner-section {
+    .left-list-wrapper {
+      padding-left: 6.6875rem;
+      .inner-box-wrapper {
+        margin-bottom: 1.5rem;
+        padding-bottom: 1.5rem;
+        width: 184px;
+        border-bottom: 1px solid #dedede;
+        &:last-child {
+          padding-bottom: 0;
+          margin-bottom: 0;
+          border-bottom: 0;
+        }
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+          color: $primary;
+          font-family: $font-primary;
+          font-size: 1.5rem;
+          font-weight: 400;
+          line-height: 31.2px;
+        }
+        p {
+          color: #545454;
+          font-family: $font-secondary;
+          font-size: 1.125rem;
+          font-weight: 500;
+          line-height: 25.2px;
+          margin: 0;
+        }
+      }
+    }
+    .right-content-wrapper {
+      p {
+        color: #545454;
+        font-family: $font-secondary;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 22.4px;
+      }
+      .image-wrapper {
+        img {
+          border-radius: 8px;
+          width: 100%;
+          height: 12.75rem;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+  .contect-top-section {
+    position: relative;
+    .about-clip-1 {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      pointer-events: none;
+      @media (max-width: 683px) {
+        display: none;
+      }
+      img {
+        width: 16.8286rem;
+        height: 18.5474rem;
+      }
+    }
+    .about-clip-2 {
+      position: absolute;
+      top: 72%;
+      right: -6%;
+      pointer-events: none;
+      @media (max-width: 683px) {
+        display: none;
+      }
+      img {
+        width: 16.8286rem;
+        height: 18.5474rem;
+      }
+    }
+  }
+}

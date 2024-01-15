@@ -12,6 +12,14 @@
     }
   });
 
+  $(window).scroll(function () {
+    if ($(this).scrollTop() >= 100) {
+      $("header").addClass("sticky");
+    } else {
+      $("header").removeClass("sticky");
+    }
+  });
+
   //responsive navbar
   $(".close-btn").click(function () {
     $(".nav-items .wrapper").removeClass("show");
